@@ -1,0 +1,181 @@
+analysis	climate_product	thinning_km	model	fold	cohort_n	positives	n_train	n_test	n_pos_train	n_pos_test	valid	seed	skip_reason	ap	roc_auc	test_prevalence	parameters	tuning
+climate_product	WorldClim	0.0	LR	0	890	558	823	67	517	41	True	42		0.987824981010184	0.9812382739212008	0.6119402985074627	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	WorldClim	0.0	LR	1	890	558	612	278	328	230	True	42		0.9897421439563461	0.9522644927536232	0.8273381294964028	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	WorldClim	0.0	LR	2	890	558	758	132	481	77	True	42		0.9912641730523842	0.9867768595041322	0.5833333333333334	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	WorldClim	0.0	LR	3	890	558	855	35	528	30	True	42		1.0	1.0	0.8571428571428571	"{""C"": 0.3}"	inner_grouped_AP
+climate_product	WorldClim	0.0	LR	4	890	558	872	18	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	WorldClim	0.0	LR	5	890	558	770	120	455	103	True	42		1.0	1.0	0.8583333333333333	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	WorldClim	0.0	LR	6	890	558	791	99	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	WorldClim	0.0	LR	7	890	558	846	44	514	44	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	WorldClim	0.0	LR	8	890	558	807	83	535	23	True	42		0.9674429060440402	0.9833333333333333	0.27710843373493976	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	WorldClim	0.0	LR	9	890	558	876	14	548	10	True	42		0.9809090909090908	0.95	0.7142857142857143	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	WorldClim	0.0	RF	0	890	558	823	67	517	41	True	42		0.9949654104449184	0.9934333958724203	0.6119402985074627	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+climate_product	WorldClim	0.0	RF	1	890	558	612	278	328	230	True	42		0.9900120678223531	0.9558876811594202	0.8273381294964028	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+climate_product	WorldClim	0.0	RF	2	890	558	758	132	481	77	True	42		0.9905115880899155	0.9858323494687131	0.5833333333333334	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+climate_product	WorldClim	0.0	RF	3	890	558	855	35	528	30	True	42		1.0	1.0	0.8571428571428571	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+climate_product	WorldClim	0.0	RF	4	890	558	872	18	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	WorldClim	0.0	RF	5	890	558	770	120	455	103	True	42		1.0	1.0	0.8583333333333333	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+climate_product	WorldClim	0.0	RF	6	890	558	791	99	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	WorldClim	0.0	RF	7	890	558	846	44	514	44	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	WorldClim	0.0	RF	8	890	558	807	83	535	23	True	42		0.9845839979010809	0.9942028985507247	0.27710843373493976	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+climate_product	WorldClim	0.0	RF	9	890	558	876	14	548	10	True	42		0.990909090909091	0.975	0.7142857142857143	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+climate_product	WorldClim	0.0	XGB	0	890	558	823	67	517	41	True	42		0.991458450909245	0.9878048780487805	0.6119402985074627	"{""max_depth"": 6}"	inner_grouped_AP
+climate_product	WorldClim	0.0	XGB	1	890	558	612	278	328	230	True	42		0.9738455477944442	0.8971920289855072	0.8273381294964028	"{""max_depth"": 4}"	inner_grouped_AP
+climate_product	WorldClim	0.0	XGB	2	890	558	758	132	481	77	True	42		0.9894456450503241	0.9840613931523022	0.5833333333333334	"{""max_depth"": 4}"	inner_grouped_AP
+climate_product	WorldClim	0.0	XGB	3	890	558	855	35	528	30	True	42		1.0	1.0	0.8571428571428571	"{""max_depth"": 4}"	inner_grouped_AP
+climate_product	WorldClim	0.0	XGB	4	890	558	872	18	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	WorldClim	0.0	XGB	5	890	558	770	120	455	103	True	42		1.0	1.0	0.8583333333333333	"{""max_depth"": 6}"	inner_grouped_AP
+climate_product	WorldClim	0.0	XGB	6	890	558	791	99	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	WorldClim	0.0	XGB	7	890	558	846	44	514	44	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	WorldClim	0.0	XGB	8	890	558	807	83	535	23	True	42		0.9666892402009093	0.9876811594202898	0.27710843373493976	"{""max_depth"": 6}"	inner_grouped_AP
+climate_product	WorldClim	0.0	XGB	9	890	558	876	14	548	10	True	42		0.9263455988455987	0.85	0.7142857142857143	"{""max_depth"": 6}"	inner_grouped_AP
+climate_product	CHELSA	0.0	LR	0	890	558	823	67	517	41	True	42		0.9821601231176198	0.9718574108818011	0.6119402985074627	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	CHELSA	0.0	LR	1	890	558	612	278	328	230	True	42		0.9912376415780307	0.9580615942028985	0.8273381294964028	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	CHELSA	0.0	LR	2	890	558	758	132	481	77	True	42		0.9860410509099091	0.9780401416765053	0.5833333333333334	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	CHELSA	0.0	LR	3	890	558	855	35	528	30	True	42		0.973473674376749	0.8600000000000001	0.8571428571428571	"{""C"": 0.03}"	inner_grouped_AP
+climate_product	CHELSA	0.0	LR	4	890	558	872	18	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	CHELSA	0.0	LR	5	890	558	770	120	455	103	True	42		1.0	1.0	0.8583333333333333	"{""C"": 3.0}"	inner_grouped_AP
+climate_product	CHELSA	0.0	LR	6	890	558	791	99	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	CHELSA	0.0	LR	7	890	558	846	44	514	44	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	CHELSA	0.0	LR	8	890	558	807	83	535	23	True	42		0.9205889136129822	0.9644927536231883	0.27710843373493976	"{""C"": 0.3}"	inner_grouped_AP
+climate_product	CHELSA	0.0	LR	9	890	558	876	14	548	10	True	42		0.9532467532467531	0.8500000000000001	0.7142857142857143	"{""C"": 0.03}"	inner_grouped_AP
+climate_product	CHELSA	0.0	RF	0	890	558	823	67	517	41	True	42		0.9768145184635452	0.9615384615384616	0.6119402985074627	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+climate_product	CHELSA	0.0	RF	1	890	558	612	278	328	230	True	42		0.9917474065663038	0.9613224637681159	0.8273381294964028	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+climate_product	CHELSA	0.0	RF	2	890	558	758	132	481	77	True	42		0.9814699005293095	0.973081463990555	0.5833333333333334	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+climate_product	CHELSA	0.0	RF	3	890	558	855	35	528	30	True	42		1.0	1.0	0.8571428571428571	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+climate_product	CHELSA	0.0	RF	4	890	558	872	18	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	CHELSA	0.0	RF	5	890	558	770	120	455	103	True	42		1.0	1.0	0.8583333333333333	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+climate_product	CHELSA	0.0	RF	6	890	558	791	99	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	CHELSA	0.0	RF	7	890	558	846	44	514	44	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	CHELSA	0.0	RF	8	890	558	807	83	535	23	True	42		0.9965217391304347	0.9985507246376811	0.27710843373493976	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+climate_product	CHELSA	0.0	RF	9	890	558	876	14	548	10	True	42		1.0	1.0	0.7142857142857143	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+climate_product	CHELSA	0.0	XGB	0	890	558	823	67	517	41	True	42		0.9787961302949267	0.9652908067542214	0.6119402985074627	"{""max_depth"": 4}"	inner_grouped_AP
+climate_product	CHELSA	0.0	XGB	1	890	558	612	278	328	230	True	42		0.9826675138172177	0.9257246376811594	0.8273381294964028	"{""max_depth"": 4}"	inner_grouped_AP
+climate_product	CHELSA	0.0	XGB	2	890	558	758	132	481	77	True	42		0.9863297506496352	0.9787485242030696	0.5833333333333334	"{""max_depth"": 4}"	inner_grouped_AP
+climate_product	CHELSA	0.0	XGB	3	890	558	855	35	528	30	True	42		1.0	1.0	0.8571428571428571	"{""max_depth"": 4}"	inner_grouped_AP
+climate_product	CHELSA	0.0	XGB	4	890	558	872	18	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	CHELSA	0.0	XGB	5	890	558	770	120	455	103	True	42		1.0	1.0	0.8583333333333333	"{""max_depth"": 4}"	inner_grouped_AP
+climate_product	CHELSA	0.0	XGB	6	890	558	791	99	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	CHELSA	0.0	XGB	7	890	558	846	44	514	44	False	42	empty_or_single_class_or_fewer_than_5_positives					
+climate_product	CHELSA	0.0	XGB	8	890	558	807	83	535	23	True	42		0.9896921324142495	0.9956521739130434	0.27710843373493976	"{""max_depth"": 6}"	inner_grouped_AP
+climate_product	CHELSA	0.0	XGB	9	890	558	876	14	548	10	True	42		0.9769230769230769	0.925	0.7142857142857143	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	LR	0	890	558	823	67	517	41	True	42		0.987824981010184	0.9812382739212008	0.6119402985074627	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	LR	1	890	558	612	278	328	230	True	42		0.9897421439563461	0.9522644927536232	0.8273381294964028	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	LR	2	890	558	758	132	481	77	True	42		0.9912641730523842	0.9867768595041322	0.5833333333333334	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	LR	3	890	558	855	35	528	30	True	42		1.0	1.0	0.8571428571428571	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	LR	4	890	558	872	18	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	0.0	LR	5	890	558	770	120	455	103	True	42		1.0	1.0	0.8583333333333333	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	LR	6	890	558	791	99	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	0.0	LR	7	890	558	846	44	514	44	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	0.0	LR	8	890	558	807	83	535	23	True	42		0.9674429060440402	0.9833333333333333	0.27710843373493976	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	LR	9	890	558	876	14	548	10	True	42		0.9809090909090908	0.95	0.7142857142857143	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	RF	0	890	558	823	67	517	41	True	42		0.9949654104449184	0.9934333958724203	0.6119402985074627	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	RF	1	890	558	612	278	328	230	True	42		0.9900120678223531	0.9558876811594202	0.8273381294964028	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	RF	2	890	558	758	132	481	77	True	42		0.9905115880899155	0.9858323494687131	0.5833333333333334	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	RF	3	890	558	855	35	528	30	True	42		1.0	1.0	0.8571428571428571	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	RF	4	890	558	872	18	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	0.0	RF	5	890	558	770	120	455	103	True	42		1.0	1.0	0.8583333333333333	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	RF	6	890	558	791	99	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	0.0	RF	7	890	558	846	44	514	44	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	0.0	RF	8	890	558	807	83	535	23	True	42		0.9845839979010809	0.9942028985507247	0.27710843373493976	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	RF	9	890	558	876	14	548	10	True	42		0.990909090909091	0.975	0.7142857142857143	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	XGB	0	890	558	823	67	517	41	True	42		0.991458450909245	0.9878048780487805	0.6119402985074627	"{""max_depth"": 6}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	XGB	1	890	558	612	278	328	230	True	42		0.9738455477944442	0.8971920289855072	0.8273381294964028	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	XGB	2	890	558	758	132	481	77	True	42		0.9894456450503241	0.9840613931523022	0.5833333333333334	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	XGB	3	890	558	855	35	528	30	True	42		1.0	1.0	0.8571428571428571	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	XGB	4	890	558	872	18	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	0.0	XGB	5	890	558	770	120	455	103	True	42		1.0	1.0	0.8583333333333333	"{""max_depth"": 6}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	XGB	6	890	558	791	99	558	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	0.0	XGB	7	890	558	846	44	514	44	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	0.0	XGB	8	890	558	807	83	535	23	True	42		0.9666892402009093	0.9876811594202898	0.27710843373493976	"{""max_depth"": 6}"	inner_grouped_AP
+spatial_thinning	WorldClim	0.0	XGB	9	890	558	876	14	548	10	True	42		0.9263455988455987	0.85	0.7142857142857143	"{""max_depth"": 6}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	LR	0	533	340	480	53	308	32	True	42		0.9861115962317819	0.9791666666666667	0.6037735849056604	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	LR	1	533	340	407	126	247	93	True	42		0.9881866869645697	0.9664385793418051	0.7380952380952381	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	LR	2	533	340	443	90	293	47	True	42		0.9871776629960868	0.9851558634339436	0.5222222222222223	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	LR	3	533	340	502	31	314	26	True	42		0.9999999999999999	1.0	0.8387096774193549	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	LR	4	533	340	515	18	340	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	5.0	LR	5	533	340	447	86	264	76	True	42		1.0000000000000002	1.0	0.8837209302325582	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	LR	6	533	340	521	12	340	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	5.0	LR	7	533	340	491	42	298	42	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	5.0	LR	8	533	340	472	61	326	14	True	42		0.939928193499622	0.972644376899696	0.22950819672131148	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	LR	9	533	340	519	14	330	10	True	42		0.9809090909090908	0.95	0.7142857142857143	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	RF	0	533	340	480	53	308	32	True	42		0.9960267366202346	0.994047619047619	0.6037735849056604	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	RF	1	533	340	407	126	247	93	True	42		0.9898416812777473	0.9716520039100685	0.7380952380952381	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	RF	2	533	340	443	90	293	47	True	42		0.99286099759333	0.99208312716477	0.5222222222222223	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	RF	3	533	340	502	31	314	26	True	42		0.9999999999999999	1.0	0.8387096774193549	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	RF	4	533	340	515	18	340	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	5.0	RF	5	533	340	447	86	264	76	True	42		1.0	1.0	0.8837209302325582	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	RF	6	533	340	521	12	340	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	5.0	RF	7	533	340	491	42	298	42	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	5.0	RF	8	533	340	472	61	326	14	True	42		0.9804748822605964	0.9939209726443768	0.22950819672131148	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	RF	9	533	340	519	14	330	10	True	42		0.990909090909091	0.975	0.7142857142857143	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	XGB	0	533	340	480	53	308	32	True	42		0.9938330789847667	0.9910714285714285	0.6037735849056604	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	XGB	1	533	340	407	126	247	93	True	42		0.9417288035012487	0.8678722710980775	0.7380952380952381	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	XGB	2	533	340	443	90	293	47	True	42		0.9942202724444698	0.9935675408213755	0.5222222222222223	"{""max_depth"": 6}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	XGB	3	533	340	502	31	314	26	True	42		0.9999999999999998	1.0	0.8387096774193549	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	XGB	4	533	340	515	18	340	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	5.0	XGB	5	533	340	447	86	264	76	True	42		1.0000000000000002	1.0	0.8837209302325582	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	XGB	6	533	340	521	12	340	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	5.0	XGB	7	533	340	491	42	298	42	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	5.0	XGB	8	533	340	472	61	326	14	True	42		0.9241754277468562	0.9574468085106382	0.22950819672131148	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	5.0	XGB	9	533	340	519	14	330	10	True	42		0.9999999999999999	1.0	0.7142857142857143	"{""max_depth"": 6}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	LR	0	403	248	359	44	221	27	True	42		0.9829509612595846	0.9738562091503268	0.6136363636363636	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	LR	1	403	248	321	82	191	57	True	42		0.9836955399329828	0.9600000000000001	0.6951219512195121	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	LR	2	403	248	342	61	218	30	True	42		0.9958585858585859	0.9956989247311827	0.4918032786885246	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	LR	3	403	248	373	30	223	25	True	42		1.0000000000000002	1.0	0.8333333333333334	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	LR	4	403	248	385	18	248	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	10.0	LR	5	403	248	342	61	195	53	True	42		1.0	1.0	0.8688524590163934	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	LR	6	403	248	392	11	248	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	10.0	LR	7	403	248	367	36	212	36	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	10.0	LR	8	403	248	357	46	238	10	True	42		0.9183261183261183	0.961111111111111	0.21739130434782608	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	LR	9	403	248	389	14	238	10	True	42		0.9809090909090908	0.95	0.7142857142857143	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	RF	0	403	248	359	44	221	27	True	42		0.9928563137822397	0.9891067538126361	0.6136363636363636	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	RF	1	403	248	321	82	191	57	True	42		0.9830568342418806	0.9614035087719298	0.6951219512195121	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	RF	2	403	248	342	61	218	30	True	42		0.9966641947843282	0.9967741935483871	0.4918032786885246	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	RF	3	403	248	373	30	223	25	True	42		1.0	1.0	0.8333333333333334	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	RF	4	403	248	385	18	248	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	10.0	RF	5	403	248	342	61	195	53	True	42		1.0	1.0	0.8688524590163934	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	RF	6	403	248	392	11	248	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	10.0	RF	7	403	248	367	36	212	36	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	10.0	RF	8	403	248	357	46	238	10	True	42		0.9733333333333333	0.9916666666666667	0.21739130434782608	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	RF	9	403	248	389	14	238	10	True	42		0.990909090909091	0.975	0.7142857142857143	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	XGB	0	403	248	359	44	221	27	True	42		0.9839976681196274	0.9782135076252723	0.6136363636363636	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	XGB	1	403	248	321	82	191	57	True	42		0.9570042644773593	0.9045614035087719	0.6951219512195121	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	XGB	2	403	248	342	61	218	30	True	42		0.9968055555555556	0.9967741935483871	0.4918032786885246	"{""max_depth"": 6}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	XGB	3	403	248	373	30	223	25	True	42		1.0000000000000002	1.0	0.8333333333333334	"{""max_depth"": 6}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	XGB	4	403	248	385	18	248	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	10.0	XGB	5	403	248	342	61	195	53	True	42		1.0	1.0	0.8688524590163934	"{""max_depth"": 6}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	XGB	6	403	248	392	11	248	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	10.0	XGB	7	403	248	367	36	212	36	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	10.0	XGB	8	403	248	357	46	238	10	True	42		0.9378174603174603	0.9805555555555556	0.21739130434782608	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	10.0	XGB	9	403	248	389	14	238	10	True	42		0.9572979797979798	0.9	0.7142857142857143	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	LR	0	255	151	232	23	136	15	True	42		0.9722667528549882	0.95	0.6521739130434783	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	LR	1	255	151	208	47	120	31	True	42		0.9772799978350947	0.9556451612903225	0.6595744680851063	"{""C"": 0.3}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	LR	2	255	151	220	35	133	18	True	42		0.9970760233918129	0.9967320261437909	0.5142857142857142	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	LR	3	255	151	227	28	128	23	True	42		0.9999999999999999	1.0	0.8214285714285714	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	LR	4	255	151	237	18	151	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	25.0	LR	5	255	151	226	29	127	24	True	42		1.0	1.0	0.8275862068965517	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	LR	6	255	151	244	11	151	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	25.0	LR	7	255	151	230	25	126	25	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	25.0	LR	8	255	151	230	25	146	5	True	42		1.0	1.0	0.2	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	LR	9	255	151	241	14	141	10	True	42		0.9809090909090908	0.95	0.7142857142857143	"{""C"": 3.0}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	RF	0	255	151	232	23	136	15	True	42		0.9958333333333333	0.9916666666666667	0.6521739130434783	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	RF	1	255	151	208	47	120	31	True	42		0.9777951274251084	0.9556451612903225	0.6595744680851063	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	RF	2	255	151	220	35	133	18	True	42		1.0	1.0	0.5142857142857142	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	RF	3	255	151	227	28	128	23	True	42		1.0	1.0	0.8214285714285714	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	RF	4	255	151	237	18	151	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	25.0	RF	5	255	151	226	29	127	24	True	42		0.9999999999999999	1.0	0.8275862068965517	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	RF	6	255	151	244	11	151	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	25.0	RF	7	255	151	230	25	126	25	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	25.0	RF	8	255	151	230	25	146	5	True	42		1.0	1.0	0.2	"{""max_depth"": null, ""min_samples_leaf"": 1}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	RF	9	255	151	241	14	141	10	True	42		0.990909090909091	0.975	0.7142857142857143	"{""max_depth"": 12, ""min_samples_leaf"": 5}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	XGB	0	255	151	232	23	136	15	True	42		0.9913888888888889	0.9833333333333334	0.6521739130434783	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	XGB	1	255	151	208	47	120	31	True	42		0.9861261179432255	0.969758064516129	0.6595744680851063	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	XGB	2	255	151	220	35	133	18	True	42		0.9970760233918129	0.9983660130718954	0.5142857142857142	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	XGB	3	255	151	227	28	128	23	True	42		0.9999999999999999	1.0	0.8214285714285714	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	XGB	4	255	151	237	18	151	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	25.0	XGB	5	255	151	226	29	127	24	True	42		1.0	1.0	0.8275862068965517	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	XGB	6	255	151	244	11	151	0	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	25.0	XGB	7	255	151	230	25	126	25	False	42	empty_or_single_class_or_fewer_than_5_positives					
+spatial_thinning	WorldClim	25.0	XGB	8	255	151	230	25	146	5	True	42		1.0	1.0	0.2	"{""max_depth"": 4}"	inner_grouped_AP
+spatial_thinning	WorldClim	25.0	XGB	9	255	151	241	14	141	10	True	42		0.9909090909090909	0.975	0.7142857142857143	"{""max_depth"": 4}"	inner_grouped_AP

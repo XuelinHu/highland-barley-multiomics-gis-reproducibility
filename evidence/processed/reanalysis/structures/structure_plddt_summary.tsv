@@ -1,0 +1,11 @@
+gene_id	label	source	colabfold_model	seq_len	modeled_residues	mean	median	min	max	std	ptm	fraction_very_low_lt50	fraction_low_50_70	fraction_confident_70_90	fraction_very_high_ge90	pdb
+HORVU.MOREX.r3.4HG0386900	CHP01589/DUF (4H0386900)	ColabFold(local)	alphafold2_ptm_model_3_seed_000	87	87	84.67	93.75	45.91	95.94	15.96	0.65	0.023	0.1954	0.1149	0.6667	pdb/HORVU.MOREX.r3.4HG0386900_colabfold_rank001.pdb
+HORVU.MOREX.r3.5HG0524540	NAC/NAM TF (5H0524540)	ColabFold(local)	alphafold2_ptm_model_1_seed_000	330	330	67.12	66.84	29.62	98.25	25.18	0.56	0.4182	0.0848	0.1545	0.3424	pdb/HORVU.MOREX.r3.5HG0524540_colabfold_rank001.pdb
+HORVU.MOREX.r3.3HG0318380	LRR-RK SERK2-like (3H0318380)	ColabFold(local)	alphafold2_ptm_model_3_seed_000	224	224	87.5	97.44	20.03	98.94	19.13	0.82	0.0759	0.1071	0.0804	0.7366	pdb/HORVU.MOREX.r3.3HG0318380_colabfold_rank001.pdb
+HORVU.MOREX.r3.1HG0046190	Aquaporin TIP3-1 (1H0046190)	ColabFold(local)	alphafold2_ptm_model_3_seed_000	263	263	90.31	97.88	28.36	98.94	16.71	0.88	0.0722	0.0456	0.0646	0.8175	pdb/HORVU.MOREX.r3.1HG0046190_colabfold_rank001.pdb
+HORVU.MOREX.r3.6HG0596770	Aquaporin PIP2-2 (6H0596770)	ColabFold(local)	alphafold2_ptm_model_3_seed_000	286	286	88.76	97.56	29.77	98.94	18.89	0.87	0.0804	0.0664	0.0769	0.7762	pdb/HORVU.MOREX.r3.6HG0596770_colabfold_rank001.pdb
+HORVU.MOREX.r3.2HG0099870	HSP90/HSP82 (2H0099870)	ColabFold(local)	alphafold2_ptm_model_5_seed_000	716	716	83.73	91.88	28.84	98.62	18.46	0.78	0.102	0.0698	0.25	0.5782	pdb/HORVU.MOREX.r3.2HG0099870_colabfold_rank001.pdb
+HORVU.MOREX.r3.5HG0507410	Dehydrin DHN2 (5H0507410)	AFDB:P12951 (exact match)		139	139	54.64	52.06	38.47	87.12	11.64		0.4101	0.5036	0.0863	0.0	afdb/AF-P12951-F1.pdb
+HORVU.MOREX.r3.1HG0080020	LEA HVA1 (1H0080020)	AFDB:P14928 (exact match)		213	213	58.36	55.5	34.62	81.12	12.52		0.3005	0.4742	0.2254	0.0	afdb/AF-P14928-F1.pdb
+HORVU.MOREX.r3.7HG0637810	LEA_1 candidate A (7H0637810)	ColabFold(local)	alphafold2_ptm_model_1_seed_000	117	117	56.93	56.53	39.38	77.25	9.66	0.25	0.2393	0.6068	0.1538	0.0	pdb/HORVU.MOREX.r3.7HG0637810_colabfold_rank001.pdb
+HORVU.MOREX.r3.2HG0197000	LEA_1 candidate B (2H0197000)	ColabFold(local)	alphafold2_ptm_model_1_seed_000	113	113	50.44	51.06	38.28	58.97	4.53	0.17	0.3982	0.6018	0.0	0.0	pdb/HORVU.MOREX.r3.2HG0197000_colabfold_rank001.pdb

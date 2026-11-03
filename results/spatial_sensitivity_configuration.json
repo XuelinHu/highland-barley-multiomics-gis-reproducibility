@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "outer_blocks": "archived plateau blocks; never redefined after thinning",
+  "common_climate_cohort_n": 890,
+  "plateau_n": 890,
+  "spatial_thinning": "greedy haversine distance; SHA256(42:gbif_key) ordering, independent of label",
+  "tuning": "three grouped inner folds, AP, training-only preprocessing and class weights",
+  "minimum_positives_train_test": 5,
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.3",
+  "scipy": "1.17.1",
+  "sklearn": "1.9.0",
+  "xgboost": "3.4.1",
+  "elapsed_seconds": 152.74233416607603
+}

@@ -1,0 +1,25 @@
+contrast	native_id	direct_morexv3_match	gff_alias_matches	decision
+W8_drought_vs_ck	HORVU3Hr1G065620	False		excluded without a validated cross-version bridge or legacy sequence
+W8_drought_vs_ck	HORVU7Hr1G037180	False		excluded without a validated cross-version bridge or legacy sequence
+W8_drought_vs_ck	HORVU3Hr1G013900	False		excluded without a validated cross-version bridge or legacy sequence
+W8_drought_vs_ck	HORVU3Hr1G013890	False		excluded without a validated cross-version bridge or legacy sequence
+W8_drought_vs_ck	HORVU2Hr1G046600	False		excluded without a validated cross-version bridge or legacy sequence
+W8_drought_vs_ck	HORVU5Hr1G078950	False		excluded without a validated cross-version bridge or legacy sequence
+W8_drought_vs_ck	HORVU5Hr1G108670	False		excluded without a validated cross-version bridge or legacy sequence
+W8_drought_vs_ck	HORVU7Hr1G041810	False		excluded without a validated cross-version bridge or legacy sequence
+W24_drought_vs_ck	HORVU3Hr1G068410	False		excluded without a validated cross-version bridge or legacy sequence
+W24_drought_vs_ck	HORVU1Hr1G071380	False		excluded without a validated cross-version bridge or legacy sequence
+W24_drought_vs_ck	HORVU7Hr1G040730	False		excluded without a validated cross-version bridge or legacy sequence
+W24_drought_vs_ck	HORVU5Hr1G048810	False		excluded without a validated cross-version bridge or legacy sequence
+W24_drought_vs_ck	HORVU6Hr1G029360	False		excluded without a validated cross-version bridge or legacy sequence
+W24_drought_vs_ck	HORVU5Hr1G047000	False		excluded without a validated cross-version bridge or legacy sequence
+W24_drought_vs_ck	HORVU5Hr1G014170	False		excluded without a validated cross-version bridge or legacy sequence
+W24_drought_vs_ck	HORVU6Hr1G055230	False		excluded without a validated cross-version bridge or legacy sequence
+mean_drought_vs_ck	HORVU3Hr1G068410	False		excluded without a validated cross-version bridge or legacy sequence
+mean_drought_vs_ck	HORVU5Hr1G078950	False		excluded without a validated cross-version bridge or legacy sequence
+mean_drought_vs_ck	HORVU3Hr1G013900	False		excluded without a validated cross-version bridge or legacy sequence
+mean_drought_vs_ck	HORVU3Hr1G013890	False		excluded without a validated cross-version bridge or legacy sequence
+mean_drought_vs_ck	HORVU6Hr1G029360	False		excluded without a validated cross-version bridge or legacy sequence
+mean_drought_vs_ck	HORVU6Hr1G055230	False		excluded without a validated cross-version bridge or legacy sequence
+mean_drought_vs_ck	HORVU7Hr1G076450	False		excluded without a validated cross-version bridge or legacy sequence
+mean_drought_vs_ck	HORVU5Hr1G047000	False		excluded without a validated cross-version bridge or legacy sequence

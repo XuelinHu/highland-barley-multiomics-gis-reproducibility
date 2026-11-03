@@ -1,0 +1,6 @@
+__pycache__/
+rerun/
+*.log
+.env*
+evidence/gis/raw/
+evidence/gis/processed/barley_env_matrix.tsv.gz

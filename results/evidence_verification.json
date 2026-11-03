@@ -1,0 +1,126 @@
+{
+  "model_cohorts": {
+    "fold_rows": 240,
+    "all_fold_counts_verified": true,
+    "all_aggregate_metrics_reproduced": true
+  },
+  "proteins": {
+    "panel_size": 10,
+    "reference_and_pdb_sequences_verified": true,
+    "panel_ranks": [
+      64,
+      93,
+      72,
+      58,
+      76,
+      61,
+      8,
+      3,
+      1,
+      22
+    ],
+    "historical_annotation_truncation": [
+      60
+    ],
+    "full_sequences_recovered": 107
+  },
+  "gradients": [
+    {
+      "variable": "wc_bio1",
+      "subset": "plateau_2000_5000m",
+      "n": 553,
+      "slope_per_km": -5.697353501870719,
+      "ci95_lower": -5.949952261917809,
+      "ci95_upper": -5.444754741823629,
+      "native_slope": -5.697353501870719,
+      "native_se": 0.12859619231272215,
+      "native_ci95_lower": -5.949952261917809,
+      "native_ci95_upper": -5.444754741823629,
+      "r_squared": 0.7808154719972936,
+      "reported_unit": "degC/km",
+      "uncertainty": "nominal OLS; spatial dependence and raster error not included"
+    },
+    {
+      "variable": "wc_bio5",
+      "subset": "plateau_2000_5000m",
+      "n": 553,
+      "slope_per_km": -5.362032505053898,
+      "ci95_lower": -5.722239212968386,
+      "ci95_upper": -5.001825797139411,
+      "native_slope": -5.362032505053898,
+      "native_se": 0.18337861624763638,
+      "native_ci95_lower": -5.722239212968386,
+      "native_ci95_upper": -5.001825797139411,
+      "r_squared": 0.608105577057712,
+      "reported_unit": "degC/km",
+      "uncertainty": "nominal OLS; spatial dependence and raster error not included"
+    },
+    {
+      "variable": "wc_bio12",
+      "subset": "plateau_2000_5000m",
+      "n": 553,
+      "slope_per_km": -24.11800347147298,
+      "ci95_lower": -30.867560934768978,
+      "ci95_upper": -16.70947134206766,
+      "native_slope": -0.11986125092629449,
+      "native_se": 0.02059629816323358,
+      "native_ci95_lower": -0.16031812048073038,
+      "native_ci95_upper": -0.0794043813718586,
+      "r_squared": 0.057905792011186445,
+      "reported_unit": "percent/km",
+      "uncertainty": "nominal OLS; spatial dependence and raster error not included"
+    }
+  ],
+  "gse225255": [
+    {
+      "dataset": "GSE225255",
+      "contrast": "W8_drought_vs_ck",
+      "tested_features": 17342,
+      "fdr05_abslogfc1": 244,
+      "up": 184,
+      "down": 60,
+      "exact_v3_gene_ids": 0,
+      "unique_v3_name_or_alias_matches": 0,
+      "ambiguous_v3_alias_matches": 0,
+      "identifier_audit_date": "2026-11-03",
+      "model": "limma on deposited log2(FPKM+1); exploratory"
+    },
+    {
+      "dataset": "GSE225255",
+      "contrast": "W24_drought_vs_ck",
+      "tested_features": 17342,
+      "fdr05_abslogfc1": 258,
+      "up": 82,
+      "down": 176,
+      "exact_v3_gene_ids": 0,
+      "unique_v3_name_or_alias_matches": 0,
+      "ambiguous_v3_alias_matches": 0,
+      "identifier_audit_date": "2026-11-03",
+      "model": "limma on deposited log2(FPKM+1); exploratory"
+    },
+    {
+      "dataset": "GSE225255",
+      "contrast": "mean_drought_vs_ck",
+      "tested_features": 17342,
+      "fdr05_abslogfc1": 254,
+      "up": 153,
+      "down": 101,
+      "exact_v3_gene_ids": 0,
+      "unique_v3_name_or_alias_matches": 0,
+      "ambiguous_v3_alias_matches": 0,
+      "identifier_audit_date": "2026-11-03",
+      "model": "limma on deposited log2(FPKM+1); exploratory"
+    }
+  ],
+  "cold": {
+    "contrasts": 7,
+    "gse41513_gene_contrast_pairs": 33,
+    "gse41513_distinct_genes": 24,
+    "note": "Gene-label exchangeability remains an approximation; co-regulation is not removed"
+  },
+  "runtime": {
+    "python": "3.11.14",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3"
+  }
+}

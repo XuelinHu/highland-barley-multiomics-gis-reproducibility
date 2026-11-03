@@ -1,0 +1,4 @@
+contrast	cold_sig_probes	cold_sig_mapped_probes	cold_sig_genes	overlap	same_direction	opposite_direction	same_up	same_down	binom_p
+d1_vs_d0	2539	1831	1057	151	127	24	80	47	3.97e-18
+d7_vs_d0	4486	3208	1824	193	149	44	82	67	1.52e-14
+d21_vs_d0	3917	2773	1585	191	137	54	79	58	1.66e-09

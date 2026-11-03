@@ -1,0 +1,328 @@
+{
+ "HORVU.MOREX.r3.4HG0386900": [
+  {
+   "source": "InterProScan",
+   "analysis": "NCBIfam",
+   "signature": "TIGR01589",
+   "signature_desc": "TIGR01589 domain",
+   "start": 12,
+   "end": 60,
+   "interpro": "IPR006476",
+   "interpro_desc": "Conserved hypothetical protein CHP01589, plant"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "PANTHER",
+   "signature": "PTHR31871",
+   "signature_desc": "OS02G0137100 PROTEIN",
+   "start": 6,
+   "end": 60,
+   "interpro": "IPR006476",
+   "interpro_desc": "Conserved hypothetical protein CHP01589, plant"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "Pfam",
+   "signature": "PF09713",
+   "signature_desc": "Plant protein 1589 of unknown function (A_thal_3526)",
+   "start": 15,
+   "end": 60,
+   "interpro": "IPR006476",
+   "interpro_desc": "Conserved hypothetical protein CHP01589, plant"
+  },
+  {
+   "source": "CD-Search",
+   "analysis": "specific",
+   "signature": "pfam09713",
+   "signature_desc": "A_thal_3526",
+   "start": 17,
+   "end": 60,
+   "interpro": "",
+   "interpro_desc": "-",
+   "evalue": "7.67653e-21"
+  }
+ ],
+ "HORVU.MOREX.r3.5HG0524540": [
+  {
+   "source": "InterProScan",
+   "analysis": "PANTHER",
+   "signature": "PTHR31719",
+   "signature_desc": "NAC TRANSCRIPTION FACTOR 56",
+   "start": 19,
+   "end": 60,
+   "interpro": "-",
+   "interpro_desc": "-"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "ProSiteProfiles",
+   "signature": "PS51005",
+   "signature_desc": "NAC domain profile.",
+   "start": 19,
+   "end": 60,
+   "interpro": "IPR003441",
+   "interpro_desc": "NAC domain"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "SUPERFAMILY",
+   "signature": "SSF101941",
+   "signature_desc": "NAC domain",
+   "start": 15,
+   "end": 60,
+   "interpro": "IPR036093",
+   "interpro_desc": "NAC domain superfamily"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "Gene3D",
+   "signature": "G3DSA:2.170.150.80",
+   "signature_desc": "NAC domain",
+   "start": 28,
+   "end": 60,
+   "interpro": "IPR036093",
+   "interpro_desc": "NAC domain superfamily"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "Pfam",
+   "signature": "PF02365",
+   "signature_desc": "No apical meristem (NAM) protein",
+   "start": 20,
+   "end": 60,
+   "interpro": "IPR003441",
+   "interpro_desc": "NAC domain"
+  },
+  {
+   "source": "CD-Search",
+   "analysis": "specific",
+   "signature": "pfam02365",
+   "signature_desc": "NAM",
+   "start": 20,
+   "end": 60,
+   "interpro": "",
+   "interpro_desc": "C",
+   "evalue": "8.66238e-22"
+  }
+ ],
+ "HORVU.MOREX.r3.3HG0318380": [
+  {
+   "source": "InterProScan",
+   "analysis": "Pfam",
+   "signature": "PF08263",
+   "signature_desc": "Leucine rich repeat N-terminal domain",
+   "start": 24,
+   "end": 60,
+   "interpro": "IPR013210",
+   "interpro_desc": "Leucine-rich repeat-containing N-terminal, plant-type"
+  },
+  {
+   "source": "CD-Search",
+   "analysis": "specific",
+   "signature": "pfam08263",
+   "signature_desc": "LRRNT_2",
+   "start": 24,
+   "end": 60,
+   "interpro": "",
+   "interpro_desc": "-",
+   "evalue": "0.00013645"
+  }
+ ],
+ "HORVU.MOREX.r3.1HG0046190": [
+  {
+   "source": "InterProScan",
+   "analysis": "SUPERFAMILY",
+   "signature": "SSF81338",
+   "signature_desc": "Aquaporin-like",
+   "start": 21,
+   "end": 53,
+   "interpro": "IPR023271",
+   "interpro_desc": "Aquaporin-like"
+  },
+  {
+   "source": "CD-Search",
+   "analysis": "superfamily",
+   "signature": "cl00200",
+   "signature_desc": "MIP superfamily",
+   "start": 11,
+   "end": 60,
+   "interpro": "",
+   "interpro_desc": "C",
+   "evalue": "1.13788e-09"
+  }
+ ],
+ "HORVU.MOREX.r3.6HG0596770": [
+  {
+   "source": "InterProScan",
+   "analysis": "PANTHER",
+   "signature": "PTHR45687",
+   "signature_desc": "AQUAPORIN OR AQUAGLYCEROPORIN RELATED",
+   "start": 11,
+   "end": 60,
+   "interpro": "IPR034294",
+   "interpro_desc": "Aquaporin transporter"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "Gene3D",
+   "signature": "G3DSA:1.20.1080.10",
+   "signature_desc": "Glycerol uptake facilitator protein.",
+   "start": 25,
+   "end": 60,
+   "interpro": "IPR023271",
+   "interpro_desc": "Aquaporin-like"
+  },
+  {
+   "source": "CD-Search",
+   "analysis": "superfamily",
+   "signature": "cl00200",
+   "signature_desc": "MIP superfamily",
+   "start": 32,
+   "end": 60,
+   "interpro": "",
+   "interpro_desc": "C",
+   "evalue": "3.736e-07"
+  }
+ ],
+ "HORVU.MOREX.r3.2HG0099870": [
+  {
+   "source": "InterProScan",
+   "analysis": "SUPERFAMILY",
+   "signature": "SSF55874",
+   "signature_desc": "ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase",
+   "start": 16,
+   "end": 59,
+   "interpro": "IPR036890",
+   "interpro_desc": "Histidine kinase/HSP90-like ATPase superfamily"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "ProSitePatterns",
+   "signature": "PS00298",
+   "signature_desc": "Heat shock hsp90 proteins family signature.",
+   "start": 36,
+   "end": 45,
+   "interpro": "IPR019805",
+   "interpro_desc": "Heat shock protein Hsp90, conserved site"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "Gene3D",
+   "signature": "G3DSA:3.30.565.10",
+   "signature_desc": "-",
+   "start": 9,
+   "end": 60,
+   "interpro": "IPR036890",
+   "interpro_desc": "Histidine kinase/HSP90-like ATPase superfamily"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "PRINTS",
+   "signature": "PR00775",
+   "signature_desc": "90kDa heat shock protein signature",
+   "start": 16,
+   "end": 36,
+   "interpro": "IPR020575",
+   "interpro_desc": "Heat shock protein Hsp90, N-terminal"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "PRINTS",
+   "signature": "PR00775",
+   "signature_desc": "90kDa heat shock protein signature",
+   "start": 37,
+   "end": 59,
+   "interpro": "IPR020575",
+   "interpro_desc": "Heat shock protein Hsp90, N-terminal"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "PANTHER",
+   "signature": "PTHR11528",
+   "signature_desc": "HEAT SHOCK PROTEIN 90 FAMILY MEMBER",
+   "start": 15,
+   "end": 60,
+   "interpro": "IPR001404",
+   "interpro_desc": "Heat shock protein Hsp90 family"
+  },
+  {
+   "source": "CD-Search",
+   "analysis": "superfamily",
+   "signature": "cl46693",
+   "signature_desc": "HSP90 superfamily",
+   "start": 16,
+   "end": 60,
+   "interpro": "",
+   "interpro_desc": "C",
+   "evalue": "5.13303e-25"
+  }
+ ],
+ "HORVU.MOREX.r3.5HG0507410": [],
+ "HORVU.MOREX.r3.1HG0080020": [],
+ "HORVU.MOREX.r3.7HG0637810": [
+  {
+   "source": "InterProScan",
+   "analysis": "PANTHER",
+   "signature": "PTHR33493",
+   "signature_desc": "LATE EMBRYOGENESIS ABUNDANT PROTEIN 6-RELATED",
+   "start": 1,
+   "end": 60,
+   "interpro": "IPR005513",
+   "interpro_desc": "Late embryogenesis abundant protein, LEA_1 subgroup"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "Pfam",
+   "signature": "PF03760",
+   "signature_desc": "Late embryogenesis abundant (LEA) group 1",
+   "start": 1,
+   "end": 60,
+   "interpro": "IPR005513",
+   "interpro_desc": "Late embryogenesis abundant protein, LEA_1 subgroup"
+  },
+  {
+   "source": "CD-Search",
+   "analysis": "specific",
+   "signature": "pfam03760",
+   "signature_desc": "LEA_1",
+   "start": 1,
+   "end": 60,
+   "interpro": "",
+   "interpro_desc": "-",
+   "evalue": "1.04638e-08"
+  }
+ ],
+ "HORVU.MOREX.r3.2HG0197000": [
+  {
+   "source": "InterProScan",
+   "analysis": "PANTHER",
+   "signature": "PTHR33493",
+   "signature_desc": "LATE EMBRYOGENESIS ABUNDANT PROTEIN 6-RELATED",
+   "start": 1,
+   "end": 60,
+   "interpro": "IPR005513",
+   "interpro_desc": "Late embryogenesis abundant protein, LEA_1 subgroup"
+  },
+  {
+   "source": "InterProScan",
+   "analysis": "Pfam",
+   "signature": "PF03760",
+   "signature_desc": "Late embryogenesis abundant (LEA) group 1",
+   "start": 1,
+   "end": 60,
+   "interpro": "IPR005513",
+   "interpro_desc": "Late embryogenesis abundant protein, LEA_1 subgroup"
+  },
+  {
+   "source": "CD-Search",
+   "analysis": "specific",
+   "signature": "pfam03760",
+   "signature_desc": "LEA_1",
+   "start": 1,
+   "end": 60,
+   "interpro": "",
+   "interpro_desc": "-",
+   "evalue": "7.11515e-12"
+  }
+ ]
+}

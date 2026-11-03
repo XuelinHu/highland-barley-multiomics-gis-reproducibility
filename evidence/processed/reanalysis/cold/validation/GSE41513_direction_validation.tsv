@@ -1,0 +1,5 @@
+contrast	cold_sig_mapped_genes	drought_genes_tested	overlap	same_direction	binom_p
+shoot 3H vs 0H	35	35	9	7	0.1797
+shoot 6H vs 0H	93	93	29	26	0.0
+root 3H vs 0H	56	56	6	6	0.0312
+root 6H vs 0H	75	75	17	10	0.6291

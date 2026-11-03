@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-03",
+  "input": "top100_proteins_full_length.fasta",
+  "sequences": 107,
+  "historical_input_length": 60,
+  "service": "EBI InterProScan REST service",
+  "status": "provider_rejected",
+  "http_status": 400,
+  "reason": "temporarily blocked under provider fair-use policy",
+  "full_length_results_available": false,
+  "action": "stopped; no bypass or repeated submission"
+}

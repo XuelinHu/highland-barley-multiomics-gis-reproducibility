@@ -1,0 +1,10 @@
+{
+  "version": "v1.0.0",
+  "release_date": "2026-11-03",
+  "source_base_commit": "51938279a6845010bd927f93fe295ef1f8ccad11",
+  "source_changes": "Revision scripts are newer than the base commit; SHA256SUMS.json identifies their exact released bytes.",
+  "seed": 42,
+  "configuration": "results/spatial_sensitivity_configuration.json",
+  "excluded": "WorldClim rasters and extracted environmental point values; raw GEO archives; private manuscript/reviewer correspondence; credentials",
+  "annotation_status": "Historical inputs truncated to 60 residues; full-length FASTA supplied; provider rejected full-length rerun."
+}

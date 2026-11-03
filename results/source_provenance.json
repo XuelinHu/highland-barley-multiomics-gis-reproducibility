@@ -1,0 +1,15 @@
+{
+  "source": "GBIF occurrence search API; not a DOI-assigned GBIF download",
+  "query": {
+    "taxonKey": 2706056,
+    "hasCoordinate": true,
+    "hasGeospatialIssue": false
+  },
+  "retrieval_date": "2026-09-11",
+  "original_global_records": 93536,
+  "original_regional_records": 9302,
+  "retained_matrix_records": 46102,
+  "snapshot_sha256": "e413fc57a1a238007b122f899af8518cacdb2886bbc30a520d524de87816f533",
+  "doi_status": "No historical download DOI exists; a GBIF derived-dataset DOI requires registration",
+  "derived_dataset_guidance": "https://www.gbif.org/derived-dataset/about"
+}

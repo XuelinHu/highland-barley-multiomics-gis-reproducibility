@@ -1,0 +1,4 @@
+dataset	contrast	tested_features	fdr05_abslogfc1	up	down	exact_v3_gene_ids	unique_v3_name_or_alias_matches	ambiguous_v3_alias_matches	identifier_audit_date	model
+GSE225255	W8_drought_vs_ck	17342	244	184	60	0	0	0	2026-11-03	limma on deposited log2(FPKM+1); exploratory
+GSE225255	W24_drought_vs_ck	17342	258	82	176	0	0	0	2026-11-03	limma on deposited log2(FPKM+1); exploratory
+GSE225255	mean_drought_vs_ck	17342	254	153	101	0	0	0	2026-11-03	limma on deposited log2(FPKM+1); exploratory

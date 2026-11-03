@@ -1,0 +1,241 @@
+target	feature_set	model	fold	n_train	n_test	n_pos_train	n_pos_test	seed	valid	skip_reason	auc	pr_auc	f1	bacc	threshold	threshold_source	threshold_train_insample	threshold_inner_oof	best_params	n_features	n_dropped	dropped
+T1_qingke_global	A	LR	0	29583	16006	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	LR	1	43863	1726	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	LR	2	44645	944	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	LR	3	45314	275	521	37	42	True		0.9695662048603225	0.8588383661176839	0.6947368421052632	0.8934249375425847	0.9716510728123617	train_insample	0.9716510728123617		{'C': 0.03}	15	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio1
+T1_qingke_global	A	LR	4	38995	6594	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	LR	5	44349	1240	37	521	42	True		0.9309528322285965	0.8816763999023293	0.5819567979669632	0.6940394928977387	0.9855211556418408	train_insample	0.9855211556418408		{'C': 0.03}	15	5	wc_bio17;wc_bio13;wc_bio10;wc_bio6;wc_bio1
+T1_qingke_global	A	LR	6	41367	4222	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	LR	7	45468	121	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	LR	8	31763	13826	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	LR	9	44954	635	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	RF	0	29583	16006	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	RF	1	43863	1726	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	RF	2	44645	944	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	RF	3	45314	275	521	37	42	True		0.9978423801953215	0.9865467038920097	0.8823529411764706	0.903304565069271	0.7033333333333334	train_insample	0.7033333333333334		{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T1_qingke_global	A	RF	4	38995	6594	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	RF	5	44349	1240	37	521	42	True		0.9481005021369517	0.9322096748962709	0.15901060070671377	0.5431861804222649	0.68	train_insample	0.68		{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T1_qingke_global	A	RF	6	41367	4222	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	RF	7	45468	121	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	RF	8	31763	13826	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	RF	9	44954	635	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	XGB	0	29583	16006	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	XGB	1	43863	1726	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	XGB	2	44645	944	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	XGB	3	45314	275	521	37	42	True		0.9946627299568477	0.9604191407942533	0.7878787878787878	0.845048830342948	0.997602641582489	train_insample	0.997602641582489		{'max_depth': 4, 'scale_pos_weight': 85.97504798464492}	20	0	
+T1_qingke_global	A	XGB	4	38995	6594	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	XGB	5	44349	1240	37	521	42	True		0.8855469448663771	0.8686822922475514	0.1524822695035461	0.5412667946257198	0.9998319149017334	train_insample	0.9998319149017334		{'max_depth': 4, 'scale_pos_weight': 1197.6216216216217}	20	0	
+T1_qingke_global	A	XGB	6	41367	4222	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	XGB	7	45468	121	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	XGB	8	31763	13826	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A	XGB	9	44954	635	558	0	42	False	too_few_positives										20	0	
+T1_qingke_global	A_noelev	LR	0	29583	16006	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	LR	1	43863	1726	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	LR	2	44645	944	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	LR	3	45314	275	521	37	42	True		0.6746536452418805	0.18008911815980688	0.3655913978494624	0.7178628208039973	0.9825681143453762	train_insample	0.9825681143453762		{'C': 0.03}	14	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio1
+T1_qingke_global	A_noelev	LR	4	38995	6594	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	LR	5	44349	1240	37	521	42	True		0.7735044674438534	0.6911438825819066	0.30321592649310875	0.5720610572905961	0.9952383571067356	train_insample	0.9952383571067356		{'C': 0.03}	14	5	wc_bio17;wc_bio13;wc_bio10;wc_bio6;wc_bio1
+T1_qingke_global	A_noelev	LR	6	41367	4222	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	LR	7	45468	121	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	LR	8	31763	13826	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	LR	9	44954	635	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	RF	0	29583	16006	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	RF	1	43863	1726	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	RF	2	44645	944	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	RF	3	45314	275	521	37	42	True		0.9962525550760846	0.9772153848552614	0.84375	0.8648648648648649	0.6733333333333333	train_insample	0.6733333333333333		{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T1_qingke_global	A_noelev	RF	4	38995	6594	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	RF	5	44349	1240	37	521	42	True		0.7878464704924465	0.7677371512314086	0.1524822695035461	0.5412667946257198	0.69	train_insample	0.69		{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T1_qingke_global	A_noelev	RF	6	41367	4222	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	RF	7	45468	121	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	RF	8	31763	13826	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	RF	9	44954	635	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	XGB	0	29583	16006	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	XGB	1	43863	1726	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	XGB	2	44645	944	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	XGB	3	45314	275	521	37	42	True		0.9937542584601408	0.9642741105242942	0.8656716417910447	0.8897910515557574	0.9959016442298889	train_insample	0.9959016442298889		{'max_depth': 4, 'scale_pos_weight': 85.97504798464492}	19	0	
+T1_qingke_global	A_noelev	XGB	4	38995	6594	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	XGB	5	44349	1240	37	521	42	True		0.6151644825533438	0.6140192881027864	0.14590747330960854	0.5393474088291746	0.9998072981834412	train_insample	0.9998072981834412		{'max_depth': 4, 'scale_pos_weight': 1197.6216216216217}	19	0	
+T1_qingke_global	A_noelev	XGB	6	41367	4222	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	XGB	7	45468	121	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	XGB	8	31763	13826	558	0	42	False	too_few_positives										19	0	
+T1_qingke_global	A_noelev	XGB	9	44954	635	558	0	42	False	too_few_positives										19	0	
+T2_highalt_global	A	LR	0	29583	16006	1048	0	42	False	too_few_positives										20	0	
+T2_highalt_global	A	LR	1	43863	1726	1047	1	42	False	too_few_positives										20	0	
+T2_highalt_global	A	LR	2	44645	944	913	135	42	True		1.0	1.0	0.9887640449438202	0.9888888888888889	0.9251404988994627	inner_oof	0.9509214687387414	0.9251404988994627	{'C': 3.0}	15	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio1
+T2_highalt_global	A	LR	3	45314	275	1004	44	42	True		1.0	1.0	1.0	1.0	0.9376481183249299	inner_oof	0.9544480776361035	0.9376481183249299	{'C': 3.0}	15	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio1
+T2_highalt_global	A	LR	4	38995	6594	1048	0	42	False	too_few_positives										20	0	
+T2_highalt_global	A	LR	5	44349	1240	472	576	42	True		0.9997228497322624	0.999684596511701	0.948905109489051	0.9513888888888888	0.9960197871445637	inner_oof	0.9588637475252816	0.9960197871445637	{'C': 3.0}	15	5	wc_bio17;wc_bio13;wc_bio10;wc_bio6;wc_bio1
+T2_highalt_global	A	LR	6	41367	4222	1022	26	42	True		1.0	1.0	0.17049180327868851	0.9698522402287892	0.019013886938359238	inner_oof	0.9311976835855975	0.019013886938359238	{'C': 0.03}	15	5	wc_bio13;wc_bio14;wc_bio10;wc_bio6;wc_bio1
+T2_highalt_global	A	LR	7	45468	121	961	87	42	True		1.0	1.0	1.0	1.0	0.9321838416821875	inner_oof	0.9379586067765129	0.9321838416821875	{'C': 0.3}	15	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio1
+T2_highalt_global	A	LR	8	31763	13826	1039	9	42	True		1.0	1.0	1.0	1.0	0.8569850844725366	inner_oof	0.9182170237772845	0.8569850844725366	{'C': 0.3}	15	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio11
+T2_highalt_global	A	LR	9	44954	635	878	170	42	True		0.9999620493358634	0.999896998471071	0.9631728045325779	0.9860215053763441	0.9251404988994627	inner_oof	0.9580880350969453	0.9251404988994627	{'C': 3.0}	15	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio1
+T2_highalt_global	A	RF	0	29583	16006	1048	0	42	False	too_few_positives										20	0	
+T2_highalt_global	A	RF	1	43863	1726	1047	1	42	False	too_few_positives										20	0	
+T2_highalt_global	A	RF	2	44645	944	913	135	42	True		1.0	1.0	1.0	1.0	0.48333333333333334	inner_oof	0.7966666666666666	0.48333333333333334	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T2_highalt_global	A	RF	3	45314	275	1004	44	42	True		1.0	0.9999999999999999	1.0	1.0	0.3547855423454383	inner_oof	0.8195610142144719	0.3547855423454383	{'max_depth': 12, 'min_samples_leaf': 5}	20	0	
+T2_highalt_global	A	RF	4	38995	6594	1048	0	42	False	too_few_positives										20	0	
+T2_highalt_global	A	RF	5	44349	1240	472	576	42	True		1.0	1.0	0.9982608695652174	0.9982638888888888	0.4866666666666667	inner_oof	0.8366666666666667	0.4866666666666667	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T2_highalt_global	A	RF	6	41367	4222	1022	26	42	True		1.0	0.9999999999999999	1.0	1.0	0.15666666666666668	inner_oof	0.79	0.15666666666666668	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T2_highalt_global	A	RF	7	45468	121	961	87	42	True		1.0	1.0	1.0	1.0	0.38631049953713886	inner_oof	0.8061320882248427	0.38631049953713886	{'max_depth': 12, 'min_samples_leaf': 5}	20	0	
+T2_highalt_global	A	RF	8	31763	13826	1039	9	42	True		1.0	1.0	1.0	1.0	0.3955871071782577	inner_oof	0.826445723421125	0.3955871071782577	{'max_depth': 12, 'min_samples_leaf': 5}	20	0	
+T2_highalt_global	A	RF	9	44954	635	878	170	42	True		1.0	1.0	1.0	1.0	0.5164278930454177	inner_oof	0.846318658436029	0.5164278930454177	{'max_depth': 12, 'min_samples_leaf': 5}	20	0	
+T2_highalt_global	A	XGB	0	29583	16006	1048	0	42	False	too_few_positives										20	0	
+T2_highalt_global	A	XGB	1	43863	1726	1047	1	42	False	too_few_positives										20	0	
+T2_highalt_global	A	XGB	2	44645	944	913	135	42	True		0.9996520624456348	0.997971217497743	0.9777777777777777	0.9870347479741793	0.23819781839847565	inner_oof	0.9934583306312561	0.23819781839847565	{'max_depth': 6, 'scale_pos_weight': 47.89923329682366}	20	0	
+T2_highalt_global	A	XGB	3	45314	275	1004	44	42	True		0.9997048406139316	0.9984498793431139	0.9887640449438202	0.9978354978354979	0.7793114185333252	inner_oof	0.9960683584213257	0.7793114185333252	{'max_depth': 6, 'scale_pos_weight': 44.133466135458164}	20	0	
+T2_highalt_global	A	XGB	4	38995	6594	1048	0	42	False	too_few_positives										20	0	
+T2_highalt_global	A	XGB	5	44349	1240	472	576	42	True		0.9898526397255688	0.988152639983483	0.9301919720767888	0.9348121653279786	0.3330802023410797	inner_oof	0.9981978535652161	0.3330802023410797	{'max_depth': 6, 'scale_pos_weight': 92.95974576271186}	20	0	
+T2_highalt_global	A	XGB	6	41367	4222	1022	26	42	True		0.9995966854880106	0.9573355880319935	0.7384615384615385	0.9597510449512356	0.023233676329255104	inner_oof	0.992459237575531	0.023233676329255104	{'max_depth': 4, 'scale_pos_weight': 39.47651663405088}	20	0	
+T2_highalt_global	A	XGB	7	45468	121	961	87	42	True		1.0	0.9999999999999999	1.0	1.0	0.21017388999462128	inner_oof	0.991275429725647	0.21017388999462128	{'max_depth': 4, 'scale_pos_weight': 46.31321540062435}	20	0	
+T2_highalt_global	A	XGB	8	31763	13826	1039	9	42	True		1.0	1.0000000000000002	1.0	1.0	0.021404920145869255	inner_oof	0.9926750063896179	0.021404920145869255	{'max_depth': 4, 'scale_pos_weight': 29.570741097208856}	20	0	
+T2_highalt_global	A	XGB	9	44954	635	878	170	42	True		0.9992536369386464	0.9975206294122554	0.9970674486803519	0.9989247311827957	0.20920056104660034	inner_oof	0.9984809756278992	0.20920056104660034	{'max_depth': 6, 'scale_pos_weight': 50.2004555808656}	20	0	
+T2_highalt_global	A_noelev	LR	0	29583	16006	1048	0	42	False	too_few_positives										19	0	
+T2_highalt_global	A_noelev	LR	1	43863	1726	1047	1	42	False	too_few_positives										19	0	
+T2_highalt_global	A_noelev	LR	2	44645	944	913	135	42	True		0.9587510873048575	0.8822014285185912	0.3614457831325301	0.7051915945611866	0.6855056302144685	inner_oof	0.9574605457447203	0.6855056302144685	{'C': 0.03}	14	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio11
+T2_highalt_global	A_noelev	LR	3	45314	275	1004	44	42	True		0.804801259346714	0.3455687840592417	0.4731182795698925	0.7878787878787878	0.9456148801733585	inner_oof	0.9523676406064733	0.9456148801733585	{'C': 0.03}	14	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio1
+T2_highalt_global	A_noelev	LR	4	38995	6594	1048	0	42	False	too_few_positives										19	0	
+T2_highalt_global	A_noelev	LR	5	44349	1240	472	576	42	True		0.8680555555555556	0.865426860827597	0.45369127516778524	0.6467013888888888	0.9988233813980302	inner_oof	0.9965989413752777	0.9988233813980302	{'C': 3.0}	14	5	wc_bio17;wc_bio13;wc_bio10;wc_bio6;wc_bio1
+T2_highalt_global	A_noelev	LR	6	41367	4222	1022	26	42	True		0.9928869986067317	0.7735114759891586	0.2608695652173913	0.9455708733592433	0.39830383069064895	inner_oof	0.934861926175568	0.39830383069064895	{'C': 0.03}	14	5	wc_bio13;wc_bio14;wc_bio10;wc_bio6;wc_bio11
+T2_highalt_global	A_noelev	LR	7	45468	121	961	87	42	True		0.9655172413793103	0.9858325660800991	0.9364161849710982	0.8919878296146044	0.9551738767977187	inner_oof	0.9469669518944512	0.9551738767977187	{'C': 0.03}	14	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio11
+T2_highalt_global	A_noelev	LR	8	31763	13826	1039	9	42	True		0.9917171278537712	0.08388882897740543	0.0	0.5	0.9928622671510521	inner_oof	0.8960997712526474	0.9928622671510521	{'C': 0.03}	14	5	wc_bio13;wc_bio14;wc_bio10;wc_bio6;wc_bio11
+T2_highalt_global	A_noelev	LR	9	44954	635	878	170	42	True		0.8547375079063884	0.7821166375571741	0.6051282051282051	0.737381404174573	0.7012252937790939	inner_oof	0.9455570822554414	0.7012252937790939	{'C': 0.03}	14	5	wc_bio13;wc_bio17;wc_bio10;wc_bio6;wc_bio11
+T2_highalt_global	A_noelev	RF	0	29583	16006	1048	0	42	False	too_few_positives										19	0	
+T2_highalt_global	A_noelev	RF	1	43863	1726	1047	1	42	False	too_few_positives										19	0	
+T2_highalt_global	A_noelev	RF	2	44645	944	913	135	42	True		0.9771368401776312	0.914800882940362	0.6501240694789082	0.9005127500801171	0.24666666666666667	inner_oof	0.6166666666666667	0.24666666666666667	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T2_highalt_global	A_noelev	RF	3	45314	275	1004	44	42	True		0.9769775678866588	0.9472231268569942	0.9010989010989011	0.952922077922078	0.19	inner_oof	0.6166666666666667	0.19	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T2_highalt_global	A_noelev	RF	4	38995	6594	1048	0	42	False	too_few_positives										19	0	
+T2_highalt_global	A_noelev	RF	5	44349	1240	472	576	42	True		0.9369823042168675	0.9370227183639056	0.7828746177370031	0.8175200803212852	0.35318135334263173	inner_oof	0.7233105489759126	0.35318135334263173	{'max_depth': 12, 'min_samples_leaf': 5}	19	0	
+T2_highalt_global	A_noelev	RF	6	41367	4222	1022	26	42	True		0.9902929529955268	0.5872011685057756	0.42424242424242425	0.8976497763437706	0.2698461581340072	inner_oof	0.7768957418885072	0.2698461581340072	{'max_depth': 12, 'min_samples_leaf': 5}	19	0	
+T2_highalt_global	A_noelev	RF	7	45468	121	961	87	42	True		0.9503042596348885	0.9797961369030072	0.8163265306122449	0.8448275862068966	0.5345120136952138	inner_oof	0.78588528426836	0.5345120136952138	{'max_depth': 12, 'min_samples_leaf': 5}	19	0	
+T2_highalt_global	A_noelev	RF	8	31763	13826	1039	9	42	True		0.9911300893424366	0.16495703795008418	0.3333333333333333	0.7218241618617967	0.636237593536346	inner_oof	0.782353941322291	0.636237593536346	{'max_depth': 12, 'min_samples_leaf': 5}	19	0	
+T2_highalt_global	A_noelev	RF	9	44954	635	878	170	42	True		0.9394433902593295	0.9015764955962421	0.821656050955414	0.8632827324478178	0.24333333333333335	inner_oof	0.6133333333333333	0.24333333333333335	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T2_highalt_global	A_noelev	XGB	0	29583	16006	1048	0	42	False	too_few_positives										19	0	
+T2_highalt_global	A_noelev	XGB	1	43863	1726	1047	1	42	False	too_few_positives										19	0	
+T2_highalt_global	A_noelev	XGB	2	44645	944	913	135	42	True		0.9740054021883442	0.9014578002309566	0.6326034063260341	0.8912466236322849	0.17710056900978088	inner_oof	0.9777993559837341	0.17710056900978088	{'max_depth': 4, 'scale_pos_weight': 47.89923329682366}	19	0	
+T2_highalt_global	A_noelev	XGB	3	45314	275	1004	44	42	True		0.9872097599370326	0.9465990948234722	0.7920792079207921	0.9177489177489178	0.6481740474700928	inner_oof	0.9937257170677185	0.6481740474700928	{'max_depth': 6, 'scale_pos_weight': 44.133466135458164}	19	0	
+T2_highalt_global	A_noelev	XGB	4	38995	6594	1048	0	42	False	too_few_positives										19	0	
+T2_highalt_global	A_noelev	XGB	5	44349	1240	472	576	42	True		0.8690229668674698	0.8815160535091182	0.6843853820598007	0.7546749497991968	0.3533006012439728	inner_oof	0.9957718253135681	0.3533006012439728	{'max_depth': 4, 'scale_pos_weight': 92.95974576271186}	19	0	
+T2_highalt_global	A_noelev	XGB	6	41367	4222	1022	26	42	True		0.9633992080369582	0.28319201206017874	0.41509433962264153	0.7096318838454205	0.023890726268291473	inner_oof	0.9941198825836182	0.023890726268291473	{'max_depth': 6, 'scale_pos_weight': 39.47651663405088}	19	0	
+T2_highalt_global	A_noelev	XGB	7	45468	121	961	87	42	True		0.9719405003380663	0.9884713065135237	0.8344370860927153	0.8473630831643002	0.6842744946479797	inner_oof	0.9949153661727905	0.6842744946479797	{'max_depth': 6, 'scale_pos_weight': 46.31321540062435}	19	0	
+T2_highalt_global	A_noelev	XGB	8	31763	13826	1039	9	42	True		0.9945236544353574	0.4467626949769807	0.46153846153846156	0.8329352729729078	0.926718533039093	inner_oof	0.9664724469184875	0.926718533039093	{'max_depth': 4, 'scale_pos_weight': 29.570741097208856}	19	0	
+T2_highalt_global	A_noelev	XGB	9	44954	635	878	170	42	True		0.9649462365591397	0.9265972131896016	0.8161993769470405	0.8637887413029728	0.29217764735221863	inner_oof	0.9873684048652649	0.29217764735221863	{'max_depth': 4, 'scale_pos_weight': 50.2004555808656}	19	0	
+T3_qingke_plateau	B	LR	0	823	67	517	41	42	True		0.9812382739212008	0.9874288318934639	0.9213483146067416	0.8653846153846154	0.30036200450816525	inner_oof	0.3733238366658737	0.30036200450816525	{'C': 0.03}	23	16	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;sg_bdod_5_15;wc_bio16;wc_bio6;wc_bio10;sg_clay_5_15;wc_bio11;elev;wc_bio4;wc_bio18;sg_soc_5_15;sg_cec_5_15;wc_bio12
+T3_qingke_plateau	B	LR	1	612	278	328	230	42	True		0.9341485507246375	0.9854694742945291	0.4666666666666667	0.6521739130434783	0.9770822341405817	inner_oof	0.41548221083825226	0.9770822341405817	{'C': 3.0}	22	17	sg_phh2o_5_15;wc_bio13;sg_sand_5_15;sg_silt_0_5;wc_bio11;sg_bdod_5_15;wc_bio10;wc_bio16;sg_clay_5_15;elev;wc_bio4;sg_cec_5_15;sg_soc_5_15;wc_bio1;wc_bio18;wc_bio19;wc_bio12
+T3_qingke_plateau	B	LR	2	758	132	481	77	42	True		0.9105076741440378	0.9264362784258029	0.8105263157894737	0.6727272727272727	0.2097091682887697	inner_oof	0.4956679120804793	0.2097091682887697	{'C': 0.3}	23	16	wc_bio13;sg_phh2o_5_15;wc_bio10;sg_sand_5_15;sg_silt_0_5;wc_bio6;sg_bdod_5_15;wc_bio1;sg_clay_5_15;wc_bio16;elev;sg_soc_5_15;sg_cec_5_15;wc_bio4;wc_bio18;wc_bio19
+T3_qingke_plateau	B	LR	3	855	35	528	30	42	True		0.9733333333333334	0.995766129032258	0.9491525423728814	0.8666666666666667	0.500331163959529	inner_oof	0.36723882674492236	0.500331163959529	{'C': 0.03}	23	16	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;wc_bio6;sg_bdod_5_15;wc_bio10;wc_bio16;sg_clay_5_15;wc_bio1;wc_bio4;sg_soc_5_15;sg_cec_5_15;wc_bio18;elev;wc_bio12
+T3_qingke_plateau	B	LR	4	872	18	558	0	42	False	too_few_positives										39	0	
+T3_qingke_plateau	B	LR	5	770	120	455	103	42	True		1.0	1.0	0.9951690821256038	0.9705882352941176	0.026976187076120962	inner_oof	0.3741350110199614	0.026976187076120962	{'C': 0.3}	21	18	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;sg_bdod_5_15;wc_bio10;wc_bio11;wc_bio16;sg_clay_0_5;elev;wc_bio4;sg_soc_5_15;wc_bio1;wc_bio18;sg_cec_5_15;wc_bio19;wc_bio7;wc_bio12
+T3_qingke_plateau	B	LR	6	791	99	558	0	42	False	too_few_positives										39	0	
+T3_qingke_plateau	B	LR	7	846	44	514	44	42	False	single_class_block										39	0	
+T3_qingke_plateau	B	LR	8	807	83	535	23	42	True		0.9847826086956522	0.9663004567895872	0.8979591836734694	0.9449275362318841	0.26059809532503697	inner_oof	0.3265165860726378	0.26059809532503697	{'C': 0.03}	22	17	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;wc_bio6;sg_bdod_5_15;wc_bio10;wc_bio16;sg_clay_0_5;wc_bio1;sg_cec_5_15;wc_bio4;wc_bio18;sg_soc_5_15;wc_bio17;elev;wc_bio12
+T3_qingke_plateau	B	LR	9	876	14	548	10	42	True		0.9	0.9651515151515152	0.8333333333333334	0.5	0.3606531641425346	inner_oof	0.34438829769212553	0.3606531641425346	{'C': 0.03}	23	16	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;wc_bio11;sg_bdod_5_15;wc_bio10;wc_bio16;sg_clay_5_15;elev;wc_bio4;wc_bio6;sg_soc_5_15;sg_cec_5_15;wc_bio18;wc_bio12
+T3_qingke_plateau	B	RF	0	823	67	517	41	42	True		1.0	1.0	1.0	1.0	0.55	inner_oof	0.8033333333333333	0.55	{'max_depth': None, 'min_samples_leaf': 1}	39	0	
+T3_qingke_plateau	B	RF	1	612	278	328	230	42	True		1.0	1.0	0.9745762711864406	0.875	0.38666666666666666	inner_oof	0.8133333333333334	0.38666666666666666	{'max_depth': None, 'min_samples_leaf': 1}	39	0	
+T3_qingke_plateau	B	RF	2	758	132	481	77	42	True		1.0	1.0	0.9594594594594594	0.961038961038961	0.6366666666666667	inner_oof	0.7766666666666666	0.6366666666666667	{'max_depth': None, 'min_samples_leaf': 1}	39	0	
+T3_qingke_plateau	B	RF	3	855	35	528	30	42	True		1.0	1.0	1.0	1.0	0.5133333333333333	inner_oof	0.83	0.5133333333333333	{'max_depth': None, 'min_samples_leaf': 1}	39	0	
+T3_qingke_plateau	B	RF	4	872	18	558	0	42	False	too_few_positives										39	0	
+T3_qingke_plateau	B	RF	5	770	120	455	103	42	True		1.0	1.0	1.0	1.0	0.47	inner_oof	0.82	0.47	{'max_depth': None, 'min_samples_leaf': 1}	39	0	
+T3_qingke_plateau	B	RF	6	791	99	558	0	42	False	too_few_positives										39	0	
+T3_qingke_plateau	B	RF	7	846	44	514	44	42	False	single_class_block										39	0	
+T3_qingke_plateau	B	RF	8	807	83	535	23	42	True		1.0	1.0	0.9777777777777777	0.9782608695652174	0.6371153875769676	inner_oof	0.4740744884827215	0.6371153875769676	{'max_depth': 12, 'min_samples_leaf': 5}	39	0	
+T3_qingke_plateau	B	RF	9	876	14	548	10	42	True		1.0	1.0	1.0	1.0	0.59	inner_oof	0.83	0.59	{'max_depth': None, 'min_samples_leaf': 1}	39	0	
+T3_qingke_plateau	B	XGB	0	823	67	517	41	42	True		1.0	1.0	0.9879518072289156	0.9807692307692308	0.05045389384031296	inner_oof	0.7730454802513123	0.05045389384031296	{'max_depth': 4, 'scale_pos_weight': 0.5918762088974855}	39	0	
+T3_qingke_plateau	B	XGB	1	612	278	328	230	42	True		0.9999999999999999	1.0000000000000002	1.0	1.0	0.8857260942459106	inner_oof	0.9545092582702637	0.8857260942459106	{'max_depth': 4, 'scale_pos_weight': 0.8658536585365854}	39	0	
+T3_qingke_plateau	B	XGB	2	758	132	481	77	42	True		0.9996458087367178	0.9995004995004996	0.9594594594594594	0.961038961038961	0.43634033203125	inner_oof	0.6450291275978088	0.43634033203125	{'max_depth': 4, 'scale_pos_weight': 0.5758835758835759}	39	0	
+T3_qingke_plateau	B	XGB	3	855	35	528	30	42	True		1.0	1.0	1.0	1.0	0.974027693271637	inner_oof	0.963919997215271	0.974027693271637	{'max_depth': 4, 'scale_pos_weight': 0.6193181818181818}	39	0	
+T3_qingke_plateau	B	XGB	4	872	18	558	0	42	False	too_few_positives										39	0	
+T3_qingke_plateau	B	XGB	5	770	120	455	103	42	True		1.0	1.0	1.0	1.0	0.14838194847106934	inner_oof	0.6456403732299805	0.14838194847106934	{'max_depth': 4, 'scale_pos_weight': 0.6923076923076923}	39	0	
+T3_qingke_plateau	B	XGB	6	791	99	558	0	42	False	too_few_positives										39	0	
+T3_qingke_plateau	B	XGB	7	846	44	514	44	42	False	single_class_block										39	0	
+T3_qingke_plateau	B	XGB	8	807	83	535	23	42	True		1.0	1.0	1.0	1.0	0.9380941987037659	inner_oof	0.7475109100341797	0.9380941987037659	{'max_depth': 4, 'scale_pos_weight': 0.508411214953271}	39	0	
+T3_qingke_plateau	B	XGB	9	876	14	548	10	42	True		1.0	1.0	1.0	1.0	0.9427984952926636	inner_oof	0.9627519845962524	0.9427984952926636	{'max_depth': 4, 'scale_pos_weight': 0.5985401459854015}	39	0	
+T3_qingke_plateau	B_noelev	LR	0	823	67	517	41	42	True		0.9803001876172608	0.9871963054225827	0.8631578947368421	0.75	0.23673365896356127	inner_oof	0.3370334604259146	0.23673365896356127	{'C': 0.03}	22	16	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;sg_bdod_5_15;wc_bio16;wc_bio6;wc_bio10;sg_clay_5_15;wc_bio1;wc_bio4;wc_bio18;sg_soc_5_15;sg_cec_5_15;wc_bio8;wc_bio12
+T3_qingke_plateau	B_noelev	LR	1	612	278	328	230	42	True		0.9341485507246375	0.9854694742945291	0.4666666666666667	0.6521739130434783	0.9770822341405817	inner_oof	0.41548221083825226	0.9770822341405817	{'C': 3.0}	22	16	sg_phh2o_5_15;wc_bio13;sg_sand_5_15;sg_silt_0_5;wc_bio11;sg_bdod_5_15;wc_bio10;wc_bio16;sg_clay_5_15;wc_bio4;sg_cec_5_15;sg_soc_5_15;wc_bio1;wc_bio18;wc_bio19;wc_bio12
+T3_qingke_plateau	B_noelev	LR	2	758	132	481	77	42	True		0.9105076741440378	0.9264362784258029	0.8105263157894737	0.6727272727272727	0.2097091682887697	inner_oof	0.4956679120804793	0.2097091682887697	{'C': 0.3}	23	15	wc_bio13;sg_phh2o_5_15;wc_bio10;sg_sand_5_15;sg_silt_0_5;wc_bio6;sg_bdod_5_15;wc_bio1;sg_clay_5_15;wc_bio16;sg_soc_5_15;sg_cec_5_15;wc_bio4;wc_bio18;wc_bio19
+T3_qingke_plateau	B_noelev	LR	3	855	35	528	30	42	True		0.9733333333333334	0.995766129032258	0.967741935483871	0.8	0.3906357106150907	inner_oof	0.37088123136384027	0.3906357106150907	{'C': 0.03}	23	15	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;wc_bio11;sg_bdod_5_15;wc_bio10;wc_bio16;sg_clay_5_15;wc_bio4;sg_soc_5_15;sg_cec_5_15;wc_bio1;wc_bio18;wc_bio12
+T3_qingke_plateau	B_noelev	LR	4	872	18	558	0	42	False	too_few_positives										38	0	
+T3_qingke_plateau	B_noelev	LR	5	770	120	455	103	42	True		1.0	1.0	0.9951690821256038	0.9705882352941176	0.026976187076120962	inner_oof	0.3741350110199614	0.026976187076120962	{'C': 0.3}	21	17	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;sg_bdod_5_15;wc_bio10;wc_bio11;wc_bio16;sg_clay_0_5;wc_bio4;sg_soc_5_15;wc_bio1;wc_bio18;sg_cec_5_15;wc_bio19;wc_bio7;wc_bio12
+T3_qingke_plateau	B_noelev	LR	6	791	99	558	0	42	False	too_few_positives										38	0	
+T3_qingke_plateau	B_noelev	LR	7	846	44	514	44	42	False	single_class_block										38	0	
+T3_qingke_plateau	B_noelev	LR	8	807	83	535	23	42	True		0.9847826086956522	0.9663004567895872	0.8979591836734694	0.9449275362318841	0.2468409032882879	inner_oof	0.32795724746210253	0.2468409032882879	{'C': 0.03}	22	16	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;wc_bio6;sg_bdod_5_15;wc_bio10;wc_bio16;sg_clay_5_15;wc_bio1;sg_cec_5_15;wc_bio4;wc_bio18;sg_soc_5_15;wc_bio17;wc_bio12
+T3_qingke_plateau	B_noelev	LR	9	876	14	548	10	42	True		0.9	0.9651515151515152	0.8333333333333334	0.5	0.3606531641425346	inner_oof	0.34438829769212553	0.3606531641425346	{'C': 0.03}	23	15	wc_bio13;sg_phh2o_5_15;sg_sand_5_15;sg_silt_0_5;wc_bio11;sg_bdod_5_15;wc_bio10;wc_bio16;sg_clay_5_15;wc_bio4;wc_bio6;sg_soc_5_15;sg_cec_5_15;wc_bio18;wc_bio12
+T3_qingke_plateau	B_noelev	RF	0	823	67	517	41	42	True		0.9878048780487805	0.9916378021153693	0.9534883720930233	0.9230769230769231	0.4166666666666667	inner_oof	0.62	0.4166666666666667	{'max_depth': None, 'min_samples_leaf': 1}	38	0	
+T3_qingke_plateau	B_noelev	RF	1	612	278	328	230	42	True		0.9332427536231884	0.98391400977681	0.9603340292275574	0.8020833333333333	0.513493223695207	inner_oof	0.5945787348228968	0.513493223695207	{'max_depth': 12, 'min_samples_leaf': 5}	38	0	
+T3_qingke_plateau	B_noelev	RF	2	758	132	481	77	42	True		0.9851239669421488	0.9900967539521073	0.9241379310344827	0.9259740259740259	0.5275094002761108	inner_oof	0.607465890512745	0.5275094002761108	{'max_depth': 12, 'min_samples_leaf': 5}	38	0	
+T3_qingke_plateau	B_noelev	RF	3	855	35	528	30	42	True		1.0	1.0	0.9836065573770492	0.9	0.37666666666666665	inner_oof	0.6433333333333333	0.37666666666666665	{'max_depth': None, 'min_samples_leaf': 1}	38	0	
+T3_qingke_plateau	B_noelev	RF	4	872	18	558	0	42	False	too_few_positives										38	0	
+T3_qingke_plateau	B_noelev	RF	5	770	120	455	103	42	True		1.0	1.0	1.0	1.0	0.36138106496145544	inner_oof	0.5615710290663117	0.36138106496145544	{'max_depth': 12, 'min_samples_leaf': 5}	38	0	
+T3_qingke_plateau	B_noelev	RF	6	791	99	558	0	42	False	too_few_positives										38	0	
+T3_qingke_plateau	B_noelev	RF	7	846	44	514	44	42	False	single_class_block										38	0	
+T3_qingke_plateau	B_noelev	RF	8	807	83	535	23	42	True		0.9956521739130434	0.9890462404640097	0.9565217391304348	0.969927536231884	0.44666666666666666	inner_oof	0.6166666666666667	0.44666666666666666	{'max_depth': None, 'min_samples_leaf': 1}	38	0	
+T3_qingke_plateau	B_noelev	RF	9	876	14	548	10	42	True		0.9125000000000001	0.9651515151515152	0.8333333333333334	0.5	0.5333333333333333	inner_oof	0.6833333333333333	0.5333333333333333	{'max_depth': None, 'min_samples_leaf': 1}	38	0	
+T3_qingke_plateau	B_noelev	XGB	0	823	67	517	41	42	True		0.9868667917448406	0.9911597043847193	0.9534883720930233	0.9230769230769231	0.3583526313304901	inner_oof	0.6225324273109436	0.3583526313304901	{'max_depth': 6, 'scale_pos_weight': 0.5918762088974855}	38	0	
+T3_qingke_plateau	B_noelev	XGB	1	612	278	328	230	42	True		0.9001811594202899	0.9748683027421899	0.9444444444444444	0.8033514492753624	0.6288420557975769	inner_oof	0.7350099086761475	0.6288420557975769	{'max_depth': 6, 'scale_pos_weight': 0.8658536585365854}	38	0	
+T3_qingke_plateau	B_noelev	XGB	2	758	132	481	77	42	True		0.9867768595041322	0.9911644941793056	0.9342105263157895	0.9246753246753247	0.4209452271461487	inner_oof	0.7245367765426636	0.4209452271461487	{'max_depth': 4, 'scale_pos_weight': 0.5758835758835759}	38	0	
+T3_qingke_plateau	B_noelev	XGB	3	855	35	528	30	42	True		1.0	1.0	1.0	1.0	0.3346431851387024	inner_oof	0.6533451676368713	0.3346431851387024	{'max_depth': 4, 'scale_pos_weight': 0.6193181818181818}	38	0	
+T3_qingke_plateau	B_noelev	XGB	4	872	18	558	0	42	False	too_few_positives										38	0	
+T3_qingke_plateau	B_noelev	XGB	5	770	120	455	103	42	True		1.0	1.0	0.9951690821256038	0.9705882352941176	0.014080913737416267	inner_oof	0.6837661862373352	0.014080913737416267	{'max_depth': 6, 'scale_pos_weight': 0.6923076923076923}	38	0	
+T3_qingke_plateau	B_noelev	XGB	6	791	99	558	0	42	False	too_few_positives										38	0	
+T3_qingke_plateau	B_noelev	XGB	7	846	44	514	44	42	False	single_class_block										38	0	
+T3_qingke_plateau	B_noelev	XGB	8	807	83	535	23	42	True		0.989855072463768	0.9712477994306111	0.8837209302325582	0.9047101449275362	0.32780957221984863	inner_oof	0.48614680767059326	0.32780957221984863	{'max_depth': 4, 'scale_pos_weight': 0.508411214953271}	38	0	
+T3_qingke_plateau	B_noelev	XGB	9	876	14	548	10	42	True		0.95	0.9809090909090908	0.8333333333333334	0.5	0.6307300925254822	inner_oof	0.6098068952560425	0.6307300925254822	{'max_depth': 4, 'scale_pos_weight': 0.5985401459854015}	38	0	
+T3_qingke_plateau	A	LR	0	823	67	517	41	42	True		0.9812382739212007	0.987824981010184	0.8723404255319149	0.7692307692307692	0.00025576695085724883	inner_oof	0.37388227416548375	0.00025576695085724883	{'C': 3.0}	12	8	wc_bio16;wc_bio11;wc_bio10;wc_bio12;elev;wc_bio4;wc_bio1;wc_bio18
+T3_qingke_plateau	A	LR	1	612	278	328	230	42	True		0.9505434782608695	0.9895072868759529	0.7894736842105263	0.8260869565217391	0.6657991724806265	inner_oof	0.4629649843962498	0.6657991724806265	{'C': 0.3}	11	9	wc_bio16;wc_bio11;wc_bio10;wc_bio13;elev;wc_bio4;wc_bio1;wc_bio18;wc_bio19
+T3_qingke_plateau	A	LR	2	758	132	481	77	42	True		0.9792207792207792	0.9862708619978652	0.8555555555555555	0.7636363636363637	0.22423142560869885	inner_oof	0.3932026512515141	0.22423142560869885	{'C': 0.3}	11	9	wc_bio16;wc_bio5;wc_bio11;elev;wc_bio12;wc_bio1;wc_bio7;wc_bio19;wc_bio18
+T3_qingke_plateau	A	LR	3	855	35	528	30	42	True		1.0	1.0	0.9230769230769231	0.5	0.2600861975560514	inner_oof	0.41150092585789144	0.2600861975560514	{'C': 0.03}	12	8	wc_bio16;wc_bio11;wc_bio10;wc_bio13;elev;wc_bio4;wc_bio1;wc_bio18
+T3_qingke_plateau	A	LR	4	872	18	558	0	42	False	too_few_positives										20	0	
+T3_qingke_plateau	A	LR	5	770	120	455	103	42	True		1.0	1.0	0.9951690821256038	0.9705882352941176	0.07016656005203521	inner_oof	0.36607243537513373	0.07016656005203521	{'C': 0.3}	11	9	wc_bio16;wc_bio10;wc_bio11;wc_bio13;elev;wc_bio4;wc_bio1;wc_bio18;wc_bio19
+T3_qingke_plateau	A	LR	6	791	99	558	0	42	False	too_few_positives										20	0	
+T3_qingke_plateau	A	LR	7	846	44	514	44	42	False	single_class_block										20	0	
+T3_qingke_plateau	A	LR	8	807	83	535	23	42	True		0.9775362318840579	0.9550258496482751	0.8627450980392157	0.9282608695652175	0.12860803569034884	inner_oof	0.40862320674067315	0.12860803569034884	{'C': 0.3}	11	9	wc_bio16;wc_bio11;wc_bio10;wc_bio13;elev;wc_bio4;wc_bio1;wc_bio18;wc_bio14
+T3_qingke_plateau	A	LR	9	876	14	548	10	42	True		0.95	0.9809090909090908	0.8333333333333334	0.5	0.00227729026047016	inner_oof	0.4708891746259282	0.00227729026047016	{'C': 3.0}	12	8	wc_bio16;wc_bio11;wc_bio10;wc_bio13;elev;wc_bio4;wc_bio1;wc_bio18
+T3_qingke_plateau	A	RF	0	823	67	517	41	42	True		1.0	1.0	1.0	1.0	0.5233333333333333	inner_oof	0.8166666666666667	0.5233333333333333	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T3_qingke_plateau	A	RF	1	612	278	328	230	42	True		1.0	1.0	0.9829059829059829	0.9166666666666667	0.4166666666666667	inner_oof	0.83	0.4166666666666667	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T3_qingke_plateau	A	RF	2	758	132	481	77	42	True		1.0	1.0	0.9801324503311258	0.9805194805194806	0.6333333333333333	inner_oof	0.82	0.6333333333333333	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T3_qingke_plateau	A	RF	3	855	35	528	30	42	True		1.0	1.0	1.0	1.0	0.5333333333333333	inner_oof	0.8233333333333334	0.5333333333333333	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T3_qingke_plateau	A	RF	4	872	18	558	0	42	False	too_few_positives										20	0	
+T3_qingke_plateau	A	RF	5	770	120	455	103	42	True		1.0	1.0	1.0	1.0	0.46	inner_oof	0.8233333333333334	0.46	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T3_qingke_plateau	A	RF	6	791	99	558	0	42	False	too_few_positives										20	0	
+T3_qingke_plateau	A	RF	7	846	44	514	44	42	False	single_class_block										20	0	
+T3_qingke_plateau	A	RF	8	807	83	535	23	42	True		1.0	1.0	1.0	1.0	0.5466666666666666	inner_oof	0.8333333333333334	0.5466666666666666	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T3_qingke_plateau	A	RF	9	876	14	548	10	42	True		1.0	1.0	1.0	1.0	0.5333333333333333	inner_oof	0.8566666666666667	0.5333333333333333	{'max_depth': None, 'min_samples_leaf': 1}	20	0	
+T3_qingke_plateau	A	XGB	0	823	67	517	41	42	True		1.0	1.0	1.0	1.0	0.056812651455402374	inner_oof	0.7740940451622009	0.056812651455402374	{'max_depth': 4, 'scale_pos_weight': 0.5918762088974855}	20	0	
+T3_qingke_plateau	A	XGB	1	612	278	328	230	42	True		1.0	1.0	1.0	1.0	0.9679697751998901	inner_oof	0.9841060042381287	0.9679697751998901	{'max_depth': 4, 'scale_pos_weight': 0.8658536585365854}	20	0	
+T3_qingke_plateau	A	XGB	2	758	132	481	77	42	True		1.0	1.0	0.9594594594594594	0.961038961038961	0.3006986677646637	inner_oof	0.6104239225387573	0.3006986677646637	{'max_depth': 4, 'scale_pos_weight': 0.5758835758835759}	20	0	
+T3_qingke_plateau	A	XGB	3	855	35	528	30	42	True		1.0	1.0	1.0	1.0	0.033740729093551636	inner_oof	0.9824113249778748	0.033740729093551636	{'max_depth': 4, 'scale_pos_weight': 0.6193181818181818}	20	0	
+T3_qingke_plateau	A	XGB	4	872	18	558	0	42	False	too_few_positives										20	0	
+T3_qingke_plateau	A	XGB	5	770	120	455	103	42	True		1.0	1.0	1.0	1.0	0.024844693019986153	inner_oof	0.5692017078399658	0.024844693019986153	{'max_depth': 4, 'scale_pos_weight': 0.6923076923076923}	20	0	
+T3_qingke_plateau	A	XGB	6	791	99	558	0	42	False	too_few_positives										20	0	
+T3_qingke_plateau	A	XGB	7	846	44	514	44	42	False	single_class_block										20	0	
+T3_qingke_plateau	A	XGB	8	807	83	535	23	42	True		1.0	1.0	1.0	1.0	0.04029800742864609	inner_oof	0.750126302242279	0.04029800742864609	{'max_depth': 4, 'scale_pos_weight': 0.508411214953271}	20	0	
+T3_qingke_plateau	A	XGB	9	876	14	548	10	42	True		1.0	1.0	1.0	1.0	0.9801519513130188	inner_oof	0.9800500273704529	0.9801519513130188	{'max_depth': 4, 'scale_pos_weight': 0.5985401459854015}	20	0	
+T3_qingke_plateau	A_noelev	LR	0	823	67	517	41	42	True		0.9812382739212008	0.987824981010184	0.9425287356321839	0.9038461538461539	0.00582900570175751	inner_oof	0.4002475449930236	0.00582900570175751	{'C': 3.0}	12	7	wc_bio16;wc_bio11;wc_bio10;wc_bio13;wc_bio4;wc_bio18;wc_bio1
+T3_qingke_plateau	A_noelev	LR	1	612	278	328	230	42	True		0.9505434782608695	0.9895072868759529	0.7894736842105263	0.8260869565217391	0.6657991724806265	inner_oof	0.4629649843962498	0.6657991724806265	{'C': 0.3}	11	8	wc_bio16;wc_bio11;wc_bio10;wc_bio13;wc_bio4;wc_bio1;wc_bio18;wc_bio19
+T3_qingke_plateau	A_noelev	LR	2	758	132	481	77	42	True		0.9792207792207792	0.9862708619978652	0.8555555555555555	0.7636363636363637	0.22423142560869885	inner_oof	0.3932026512515141	0.22423142560869885	{'C': 0.3}	11	8	wc_bio16;wc_bio5;wc_bio11;wc_bio12;wc_bio1;wc_bio7;wc_bio19;wc_bio18
+T3_qingke_plateau	A_noelev	LR	3	855	35	528	30	42	True		1.0	1.0	0.9230769230769231	0.5	0.2600861975560514	inner_oof	0.41150092585789144	0.2600861975560514	{'C': 0.03}	12	7	wc_bio16;wc_bio11;wc_bio10;wc_bio13;wc_bio4;wc_bio1;wc_bio18
+T3_qingke_plateau	A_noelev	LR	4	872	18	558	0	42	False	too_few_positives										19	0	
+T3_qingke_plateau	A_noelev	LR	5	770	120	455	103	42	True		1.0	1.0	0.9951690821256038	0.9705882352941176	0.07016656005203521	inner_oof	0.36607243537513373	0.07016656005203521	{'C': 0.3}	11	8	wc_bio16;wc_bio10;wc_bio11;wc_bio13;wc_bio4;wc_bio1;wc_bio18;wc_bio19
+T3_qingke_plateau	A_noelev	LR	6	791	99	558	0	42	False	too_few_positives										19	0	
+T3_qingke_plateau	A_noelev	LR	7	846	44	514	44	42	False	single_class_block										19	0	
+T3_qingke_plateau	A_noelev	LR	8	807	83	535	23	42	True		0.9775362318840579	0.9550258496482751	0.8627450980392157	0.9282608695652175	0.12860803569034884	inner_oof	0.40862320674067315	0.12860803569034884	{'C': 0.3}	11	8	wc_bio16;wc_bio11;wc_bio10;wc_bio13;wc_bio4;wc_bio1;wc_bio18;wc_bio14
+T3_qingke_plateau	A_noelev	LR	9	876	14	548	10	42	True		0.95	0.9809090909090908	0.8333333333333334	0.5	0.00227729026047016	inner_oof	0.4708891746259282	0.00227729026047016	{'C': 3.0}	12	7	wc_bio16;wc_bio11;wc_bio10;wc_bio13;wc_bio4;wc_bio1;wc_bio18
+T3_qingke_plateau	A_noelev	RF	0	823	67	517	41	42	True		0.9934333958724203	0.9949654104449184	0.9534883720930233	0.9230769230769231	0.38666666666666666	inner_oof	0.6233333333333333	0.38666666666666666	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T3_qingke_plateau	A_noelev	RF	1	612	278	328	230	42	True		0.9558876811594202	0.9900120678223531	0.944558521560575	0.71875	0.30666666666666664	inner_oof	0.6666666666666666	0.30666666666666664	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T3_qingke_plateau	A_noelev	RF	2	758	132	481	77	42	True		0.9858323494687131	0.9905115880899155	0.922077922077922	0.9064935064935065	0.44	inner_oof	0.6933333333333334	0.44	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T3_qingke_plateau	A_noelev	RF	3	855	35	528	30	42	True		1.0	1.0	1.0	1.0	0.38666666666666666	inner_oof	0.64	0.38666666666666666	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T3_qingke_plateau	A_noelev	RF	4	872	18	558	0	42	False	too_few_positives										19	0	
+T3_qingke_plateau	A_noelev	RF	5	770	120	455	103	42	True		1.0	1.0	0.9951690821256038	0.9705882352941176	0.21666666666666667	inner_oof	0.6266666666666667	0.21666666666666667	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T3_qingke_plateau	A_noelev	RF	6	791	99	558	0	42	False	too_few_positives										19	0	
+T3_qingke_plateau	A_noelev	RF	7	846	44	514	44	42	False	single_class_block										19	0	
+T3_qingke_plateau	A_noelev	RF	8	807	83	535	23	42	True		0.9942028985507247	0.9845839979010809	0.9565217391304348	0.969927536231884	0.35333333333333333	inner_oof	0.6066666666666667	0.35333333333333333	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T3_qingke_plateau	A_noelev	RF	9	876	14	548	10	42	True		0.975	0.990909090909091	0.8333333333333334	0.5	0.47	inner_oof	0.6566666666666666	0.47	{'max_depth': None, 'min_samples_leaf': 1}	19	0	
+T3_qingke_plateau	A_noelev	XGB	0	823	67	517	41	42	True		0.9934333958724203	0.9957674768108103	0.9761904761904762	0.9615384615384616	0.4589070975780487	inner_oof	0.6539558172225952	0.4589070975780487	{'max_depth': 4, 'scale_pos_weight': 0.5918762088974855}	19	0	
+T3_qingke_plateau	A_noelev	XGB	1	612	278	328	230	42	True		0.8921195652173913	0.9721350045824828	0.9426229508196722	0.7083333333333334	0.07539185881614685	inner_oof	0.7709062695503235	0.07539185881614685	{'max_depth': 6, 'scale_pos_weight': 0.8658536585365854}	19	0	
+T3_qingke_plateau	A_noelev	XGB	2	758	132	481	77	42	True		0.9840613931523022	0.9894456450503241	0.9261744966442953	0.9207792207792207	0.6097390651702881	inner_oof	0.4696827828884125	0.6097390651702881	{'max_depth': 4, 'scale_pos_weight': 0.5758835758835759}	19	0	
+T3_qingke_plateau	A_noelev	XGB	3	855	35	528	30	42	True		1.0	1.0	1.0	1.0	0.07195550948381424	inner_oof	0.6278122663497925	0.07195550948381424	{'max_depth': 6, 'scale_pos_weight': 0.6193181818181818}	19	0	
+T3_qingke_plateau	A_noelev	XGB	4	872	18	558	0	42	False	too_few_positives										19	0	
+T3_qingke_plateau	A_noelev	XGB	5	770	120	455	103	42	True		1.0	1.0	1.0	1.0	0.026292283087968826	inner_oof	0.728334367275238	0.026292283087968826	{'max_depth': 6, 'scale_pos_weight': 0.6923076923076923}	19	0	
+T3_qingke_plateau	A_noelev	XGB	6	791	99	558	0	42	False	too_few_positives										19	0	
+T3_qingke_plateau	A_noelev	XGB	7	846	44	514	44	42	False	single_class_block										19	0	
+T3_qingke_plateau	A_noelev	XGB	8	807	83	535	23	42	True		0.9884057971014493	0.9711557569425384	0.8571428571428571	0.8829710144927536	0.4537099599838257	inner_oof	0.42837074398994446	0.4537099599838257	{'max_depth': 4, 'scale_pos_weight': 0.508411214953271}	19	0	
+T3_qingke_plateau	A_noelev	XGB	9	876	14	548	10	42	True		0.825	0.9063455988455987	0.8333333333333334	0.5	0.5181695818901062	inner_oof	0.6870346665382385	0.5181695818901062	{'max_depth': 4, 'scale_pos_weight': 0.5985401459854015}	19	0	

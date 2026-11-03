@@ -1,0 +1,1056 @@
+{
+ "ok": [
+  {
+   "label": "worldclim/wc2.1_30s_bio.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/worldclim/wc2.1_30s_bio.zip",
+   "size": 10401038857,
+   "msg": "size matches server (10401038857)"
+  },
+  {
+   "label": "worldclim/wc2.1_30s_elev.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/worldclim/wc2.1_30s_elev.zip",
+   "size": 338188707,
+   "msg": "size matches server (338188707)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio1_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio1_1981-2010_V.2.1.tif",
+   "size": 115490323,
+   "msg": "size matches server (115490323)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio2_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio2_1981-2010_V.2.1.tif",
+   "size": 65178902,
+   "msg": "size matches server (65178902)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio3_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio3_1981-2010_V.2.1.tif",
+   "size": 355536492,
+   "msg": "size matches server (355536492)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio4_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio4_1981-2010_V.2.1.tif",
+   "size": 457053433,
+   "msg": "size matches server (457053433)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio5_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio5_1981-2010_V.2.1.tif",
+   "size": 126368334,
+   "msg": "size matches server (126368334)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio6_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio6_1981-2010_V.2.1.tif",
+   "size": 117685874,
+   "msg": "size matches server (117685874)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio7_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio7_1981-2010_V.2.1.tif",
+   "size": 126959379,
+   "msg": "size matches server (126959379)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio8_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio8_1981-2010_V.2.1.tif",
+   "size": 129024254,
+   "msg": "size matches server (129024254)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio9_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio9_1981-2010_V.2.1.tif",
+   "size": 122196972,
+   "msg": "size matches server (122196972)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio10_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio10_1981-2010_V.2.1.tif",
+   "size": 123145240,
+   "msg": "size matches server (123145240)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio11_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio11_1981-2010_V.2.1.tif",
+   "size": 114289353,
+   "msg": "size matches server (114289353)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio12_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio12_1981-2010_V.2.1.tif",
+   "size": 655151886,
+   "msg": "size matches server (655151886)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio13_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio13_1981-2010_V.2.1.tif",
+   "size": 302056440,
+   "msg": "size matches server (302056440)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio14_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio14_1981-2010_V.2.1.tif",
+   "size": 178915498,
+   "msg": "size matches server (178915498)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio15_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio15_1981-2010_V.2.1.tif",
+   "size": 188425245,
+   "msg": "size matches server (188425245)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio16_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio16_1981-2010_V.2.1.tif",
+   "size": 473777041,
+   "msg": "size matches server (473777041)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio17_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio17_1981-2010_V.2.1.tif",
+   "size": 345567884,
+   "msg": "size matches server (345567884)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio18_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio18_1981-2010_V.2.1.tif",
+   "size": 438957395,
+   "msg": "size matches server (438957395)"
+  },
+  {
+   "label": "chelsa/CHELSA_bio19_1981-2010_V.2.1.tif",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/chelsa/CHELSA_bio19_1981-2010_V.2.1.tif",
+   "size": 394609300,
+   "msg": "size matches server (394609300)"
+  },
+  {
+   "label": "elevation/srtm_49_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_49_04.zip",
+   "size": 21265837,
+   "msg": "size matches server (21265837)"
+  },
+  {
+   "label": "elevation/srtm_49_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_49_05.zip",
+   "size": 27188727,
+   "msg": "size matches server (27188727)"
+  },
+  {
+   "label": "elevation/srtm_49_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_49_06.zip",
+   "size": 35730662,
+   "msg": "size matches server (35730662)"
+  },
+  {
+   "label": "elevation/srtm_49_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_49_07.zip",
+   "size": 33445692,
+   "msg": "size matches server (33445692)"
+  },
+  {
+   "label": "elevation/srtm_50_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_50_04.zip",
+   "size": 25313353,
+   "msg": "size matches server (25313353)"
+  },
+  {
+   "label": "elevation/srtm_50_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_50_05.zip",
+   "size": 42172262,
+   "msg": "size matches server (42172262)"
+  },
+  {
+   "label": "elevation/srtm_50_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_50_06.zip",
+   "size": 44502025,
+   "msg": "size matches server (44502025)"
+  },
+  {
+   "label": "elevation/srtm_50_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_50_07.zip",
+   "size": 33695436,
+   "msg": "size matches server (33695436)"
+  },
+  {
+   "label": "elevation/srtm_50_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_50_08.zip",
+   "size": 4647087,
+   "msg": "size matches server (4647087)"
+  },
+  {
+   "label": "elevation/srtm_51_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_51_04.zip",
+   "size": 36118529,
+   "msg": "size matches server (36118529)"
+  },
+  {
+   "label": "elevation/srtm_51_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_51_05.zip",
+   "size": 53148488,
+   "msg": "size matches server (53148488)"
+  },
+  {
+   "label": "elevation/srtm_51_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_51_06.zip",
+   "size": 32421510,
+   "msg": "size matches server (32421510)"
+  },
+  {
+   "label": "elevation/srtm_51_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_51_07.zip",
+   "size": 23542934,
+   "msg": "size matches server (23542934)"
+  },
+  {
+   "label": "elevation/srtm_51_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_51_08.zip",
+   "size": 24207648,
+   "msg": "size matches server (24207648)"
+  },
+  {
+   "label": "elevation/srtm_52_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_52_04.zip",
+   "size": 39612075,
+   "msg": "size matches server (39612075)"
+  },
+  {
+   "label": "elevation/srtm_52_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_52_05.zip",
+   "size": 41707835,
+   "msg": "size matches server (41707835)"
+  },
+  {
+   "label": "elevation/srtm_52_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_52_06.zip",
+   "size": 48752974,
+   "msg": "size matches server (48752974)"
+  },
+  {
+   "label": "elevation/srtm_52_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_52_07.zip",
+   "size": 23577764,
+   "msg": "size matches server (23577764)"
+  },
+  {
+   "label": "elevation/srtm_52_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_52_08.zip",
+   "size": 27187456,
+   "msg": "size matches server (27187456)"
+  },
+  {
+   "label": "elevation/srtm_53_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_53_04.zip",
+   "size": 35218866,
+   "msg": "size matches server (35218866)"
+  },
+  {
+   "label": "elevation/srtm_53_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_53_05.zip",
+   "size": 31145333,
+   "msg": "size matches server (31145333)"
+  },
+  {
+   "label": "elevation/srtm_53_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_53_06.zip",
+   "size": 42197664,
+   "msg": "size matches server (42197664)"
+  },
+  {
+   "label": "elevation/srtm_53_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_53_07.zip",
+   "size": 32516399,
+   "msg": "size matches server (32516399)"
+  },
+  {
+   "label": "elevation/srtm_53_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_53_08.zip",
+   "size": 32264507,
+   "msg": "size matches server (32264507)"
+  },
+  {
+   "label": "elevation/srtm_54_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_54_04.zip",
+   "size": 33446668,
+   "msg": "size matches server (33446668)"
+  },
+  {
+   "label": "elevation/srtm_54_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_54_05.zip",
+   "size": 35226062,
+   "msg": "size matches server (35226062)"
+  },
+  {
+   "label": "elevation/srtm_54_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_54_06.zip",
+   "size": 37002017,
+   "msg": "size matches server (37002017)"
+  },
+  {
+   "label": "elevation/srtm_54_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_54_07.zip",
+   "size": 38676242,
+   "msg": "size matches server (38676242)"
+  },
+  {
+   "label": "elevation/srtm_54_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_54_08.zip",
+   "size": 20454669,
+   "msg": "size matches server (20454669)"
+  },
+  {
+   "label": "elevation/srtm_55_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_55_04.zip",
+   "size": 29382693,
+   "msg": "size matches server (29382693)"
+  },
+  {
+   "label": "elevation/srtm_55_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_55_05.zip",
+   "size": 35556083,
+   "msg": "size matches server (35556083)"
+  },
+  {
+   "label": "elevation/srtm_55_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_55_06.zip",
+   "size": 41795695,
+   "msg": "size matches server (41795695)"
+  },
+  {
+   "label": "elevation/srtm_55_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_55_07.zip",
+   "size": 46606703,
+   "msg": "size matches server (46606703)"
+  },
+  {
+   "label": "elevation/srtm_55_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_55_08.zip",
+   "size": 31743862,
+   "msg": "size matches server (31743862)"
+  },
+  {
+   "label": "elevation/srtm_56_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_56_04.zip",
+   "size": 28538775,
+   "msg": "size matches server (28538775)"
+  },
+  {
+   "label": "elevation/srtm_56_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_56_05.zip",
+   "size": 41018314,
+   "msg": "size matches server (41018314)"
+  },
+  {
+   "label": "elevation/srtm_56_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_56_06.zip",
+   "size": 47771374,
+   "msg": "size matches server (47771374)"
+  },
+  {
+   "label": "elevation/srtm_56_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_56_07.zip",
+   "size": 51429483,
+   "msg": "size matches server (51429483)"
+  },
+  {
+   "label": "elevation/srtm_56_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_56_08.zip",
+   "size": 44737578,
+   "msg": "size matches server (44737578)"
+  },
+  {
+   "label": "elevation/srtm_57_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_57_04.zip",
+   "size": 27405932,
+   "msg": "size matches server (27405932)"
+  },
+  {
+   "label": "elevation/srtm_57_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_57_05.zip",
+   "size": 40177291,
+   "msg": "size matches server (40177291)"
+  },
+  {
+   "label": "elevation/srtm_57_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_57_06.zip",
+   "size": 50308385,
+   "msg": "size matches server (50308385)"
+  },
+  {
+   "label": "elevation/srtm_57_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_57_07.zip",
+   "size": 50891381,
+   "msg": "size matches server (50891381)"
+  },
+  {
+   "label": "elevation/srtm_57_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_57_08.zip",
+   "size": 49426563,
+   "msg": "size matches server (49426563)"
+  },
+  {
+   "label": "elevation/srtm_58_04.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_58_04.zip",
+   "size": 27111004,
+   "msg": "size matches server (27111004)"
+  },
+  {
+   "label": "elevation/srtm_58_05.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_58_05.zip",
+   "size": 37535781,
+   "msg": "size matches server (37535781)"
+  },
+  {
+   "label": "elevation/srtm_58_06.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_58_06.zip",
+   "size": 47141092,
+   "msg": "size matches server (47141092)"
+  },
+  {
+   "label": "elevation/srtm_58_07.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_58_07.zip",
+   "size": 47841059,
+   "msg": "size matches server (47841059)"
+  },
+  {
+   "label": "elevation/srtm_58_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_58_08.zip",
+   "size": 35297741,
+   "msg": "size matches server (35297741)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "worldclim/wc2.1_30s_bio.zip",
+   "size": 10401038857,
+   "msg": "unzip -t OK (19 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "worldclim/wc2.1_30s_elev.zip",
+   "size": 338188707,
+   "msg": "unzip -t OK (1 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_49_04.zip",
+   "size": 21265837,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_49_05.zip",
+   "size": 27188727,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_49_06.zip",
+   "size": 35730662,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_49_07.zip",
+   "size": 33445692,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_50_04.zip",
+   "size": 25313353,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_50_05.zip",
+   "size": 42172262,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_50_06.zip",
+   "size": 44502025,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_50_07.zip",
+   "size": 33695436,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_50_08.zip",
+   "size": 4647087,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_51_04.zip",
+   "size": 36118529,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_51_05.zip",
+   "size": 53148488,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_51_06.zip",
+   "size": 32421510,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_51_07.zip",
+   "size": 23542934,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_51_08.zip",
+   "size": 24207648,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_52_04.zip",
+   "size": 39612075,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_52_05.zip",
+   "size": 41707835,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_52_06.zip",
+   "size": 48752974,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_52_07.zip",
+   "size": 23577764,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_52_08.zip",
+   "size": 27187456,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_53_04.zip",
+   "size": 35218866,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_53_05.zip",
+   "size": 31145333,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_53_06.zip",
+   "size": 42197664,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_53_07.zip",
+   "size": 32516399,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_53_08.zip",
+   "size": 32264507,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_54_04.zip",
+   "size": 33446668,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_54_05.zip",
+   "size": 35226062,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_54_06.zip",
+   "size": 37002017,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_54_07.zip",
+   "size": 38676242,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_54_08.zip",
+   "size": 20454669,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_55_04.zip",
+   "size": 29382693,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_55_05.zip",
+   "size": 35556083,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_55_06.zip",
+   "size": 41795695,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_55_07.zip",
+   "size": 46606703,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_55_08.zip",
+   "size": 31743862,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_56_04.zip",
+   "size": 28538775,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_56_05.zip",
+   "size": 41018314,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_56_06.zip",
+   "size": 47771374,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_56_07.zip",
+   "size": 51429483,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_56_08.zip",
+   "size": 44737578,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_57_04.zip",
+   "size": 27405932,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_57_05.zip",
+   "size": 40177291,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_57_06.zip",
+   "size": 50308385,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_57_07.zip",
+   "size": 50891381,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_57_08.zip",
+   "size": 49426563,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_58_04.zip",
+   "size": 27111004,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_58_05.zip",
+   "size": 37535781,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_58_06.zip",
+   "size": 47141092,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_58_07.zip",
+   "size": 47841059,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "zip-integrity",
+   "path": "elevation/srtm_58_08.zip",
+   "size": 35297741,
+   "msg": "unzip -t OK (4 members)"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio10_1981-2010_V.2.1.tif",
+   "size": 123145240,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio11_1981-2010_V.2.1.tif",
+   "size": 114289353,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio12_1981-2010_V.2.1.tif",
+   "size": 655151886,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio13_1981-2010_V.2.1.tif",
+   "size": 302056440,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio14_1981-2010_V.2.1.tif",
+   "size": 178915498,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio15_1981-2010_V.2.1.tif",
+   "size": 188425245,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio16_1981-2010_V.2.1.tif",
+   "size": 473777041,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio17_1981-2010_V.2.1.tif",
+   "size": 345567884,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio18_1981-2010_V.2.1.tif",
+   "size": 438957395,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio19_1981-2010_V.2.1.tif",
+   "size": 394609300,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio1_1981-2010_V.2.1.tif",
+   "size": 115490323,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio2_1981-2010_V.2.1.tif",
+   "size": 65178902,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio3_1981-2010_V.2.1.tif",
+   "size": 355536492,
+   "msg": "valid 43200x20880 float32 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio4_1981-2010_V.2.1.tif",
+   "size": 457053433,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio5_1981-2010_V.2.1.tif",
+   "size": 126368334,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio6_1981-2010_V.2.1.tif",
+   "size": 117685874,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio7_1981-2010_V.2.1.tif",
+   "size": 126959379,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio8_1981-2010_V.2.1.tif",
+   "size": 129024254,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "chelsa/CHELSA_bio9_1981-2010_V.2.1.tif",
+   "size": 122196972,
+   "msg": "valid 43200x20880 uint16 EPSG:4326 lon[-180.00,180.00] lat[-90.00,84.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/bdod_0-5cm_mean_X60-85_Y20-45.tif",
+   "size": 44934469,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/bdod_0-5cm_mean_X85-110_Y20-45.tif",
+   "size": 53784829,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/bdod_5-15cm_mean_X60-85_Y20-45.tif",
+   "size": 44002202,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/bdod_5-15cm_mean_X85-110_Y20-45.tif",
+   "size": 51660251,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/cec_0-5cm_mean_X60-85_Y20-45.tif",
+   "size": 75987969,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/cec_0-5cm_mean_X85-110_Y20-45.tif",
+   "size": 82507591,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/cec_5-15cm_mean_X60-85_Y20-45.tif",
+   "size": 75428695,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/cec_5-15cm_mean_X85-110_Y20-45.tif",
+   "size": 81383750,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/clay_0-5cm_mean_X60-85_Y20-45.tif",
+   "size": 83733486,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/clay_0-5cm_mean_X85-110_Y20-45.tif",
+   "size": 91755986,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/clay_5-15cm_mean_X60-85_Y20-45.tif",
+   "size": 84065414,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/clay_5-15cm_mean_X85-110_Y20-45.tif",
+   "size": 92057810,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/nitrogen_0-5cm_mean_X60-85_Y20-45.tif",
+   "size": 90290519,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/nitrogen_0-5cm_mean_X85-110_Y20-45.tif",
+   "size": 106593478,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/nitrogen_5-15cm_mean_X60-85_Y20-45.tif",
+   "size": 82854917,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/nitrogen_5-15cm_mean_X85-110_Y20-45.tif",
+   "size": 100899314,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/phh2o_0-5cm_mean_X60-85_Y20-45.tif",
+   "size": 27649524,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/phh2o_0-5cm_mean_X85-110_Y20-45.tif",
+   "size": 36288633,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/phh2o_5-15cm_mean_X60-85_Y20-45.tif",
+   "size": 27804017,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/phh2o_5-15cm_mean_X85-110_Y20-45.tif",
+   "size": 36389655,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/sand_0-5cm_mean_X60-85_Y20-45.tif",
+   "size": 83668527,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/sand_0-5cm_mean_X85-110_Y20-45.tif",
+   "size": 93866215,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/sand_5-15cm_mean_X60-85_Y20-45.tif",
+   "size": 83646770,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/sand_5-15cm_mean_X85-110_Y20-45.tif",
+   "size": 93826609,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/silt_0-5cm_mean_X60-85_Y20-45.tif",
+   "size": 86819329,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/silt_0-5cm_mean_X85-110_Y20-45.tif",
+   "size": 96846332,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/silt_5-15cm_mean_X60-85_Y20-45.tif",
+   "size": 86825414,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/silt_5-15cm_mean_X85-110_Y20-45.tif",
+   "size": 96906217,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/soc_0-5cm_mean_X60-85_Y20-45.tif",
+   "size": 93447791,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/soc_0-5cm_mean_X85-110_Y20-45.tif",
+   "size": 113874656,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/soc_5-15cm_mean_X60-85_Y20-45.tif",
+   "size": 85572547,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[60.00,85.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "raster-integrity",
+   "path": "soilgrids/soc_5-15cm_mean_X85-110_Y20-45.tif",
+   "size": 107158711,
+   "msg": "valid 11059x10461 int16 EPSG:4326 lon[85.00,110.00] lat[20.00,45.00]"
+  },
+  {
+   "label": "gbif-rows",
+   "path": "gbif/gbif_hordeum_vulgare.tsv",
+   "size": 35545573,
+   "msg": "93536 data rows, 0 invalid coords"
+  }
+ ],
+ "warn": [],
+ "fail": [
+  {
+   "label": "elevation/srtm_49_08.zip",
+   "path": "/ds2/workspace/ai/highland-barley-omics-gis/gis/raw/elevation/srtm_49_08.zip",
+   "size": 0,
+   "msg": "MISSING"
+  }
+ ],
+ "gbif_licenses": {
+  "http://creativecommons.org/licenses/by-nc/4.0/legalcode": 11072,
+  "http://creativecommons.org/licenses/by/4.0/legalcode": 74355,
+  "http://creativecommons.org/publicdomain/zero/1.0/legalcode": 8109
+ }
+}

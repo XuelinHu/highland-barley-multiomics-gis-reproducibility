@@ -1,0 +1,72 @@
+{
+ "HORVU.MOREX.r3.4HG0386900": {
+  "model": "alphafold2_ptm_model_3_seed_000",
+  "plddt_mean": 84.67,
+  "ptm": 0.65,
+  "max_pae": 30.56,
+  "n_res": 87
+ },
+ "HORVU.MOREX.r3.5HG0524540": {
+  "model": "alphafold2_ptm_model_1_seed_000",
+  "plddt_mean": 67.12,
+  "ptm": 0.56,
+  "max_pae": 31.12,
+  "n_res": 330
+ },
+ "HORVU.MOREX.r3.3HG0318380": {
+  "model": "alphafold2_ptm_model_3_seed_000",
+  "plddt_mean": 87.5,
+  "ptm": 0.82,
+  "max_pae": 31.3,
+  "n_res": 224
+ },
+ "HORVU.MOREX.r3.1HG0046190": {
+  "model": "alphafold2_ptm_model_3_seed_000",
+  "plddt_mean": 90.31,
+  "ptm": 0.88,
+  "max_pae": 31.23,
+  "n_res": 263
+ },
+ "HORVU.MOREX.r3.6HG0596770": {
+  "model": "alphafold2_ptm_model_3_seed_000",
+  "plddt_mean": 88.76,
+  "ptm": 0.87,
+  "max_pae": 31.44,
+  "n_res": 286
+ },
+ "HORVU.MOREX.r3.2HG0099870": {
+  "model": "alphafold2_ptm_model_5_seed_000",
+  "plddt_mean": 83.73,
+  "ptm": 0.78,
+  "max_pae": 31.5,
+  "n_res": 716
+ },
+ "HORVU.MOREX.r3.5HG0507410": {
+  "model": "alphafold2_ptm_model_1_seed_000",
+  "plddt_mean": 52.69,
+  "ptm": 0.18,
+  "max_pae": 31.14,
+  "n_res": 139
+ },
+ "HORVU.MOREX.r3.1HG0080020": {
+  "model": "alphafold2_ptm_model_3_seed_000",
+  "plddt_mean": 60.87,
+  "ptm": 0.33,
+  "max_pae": 31.38,
+  "n_res": 213
+ },
+ "HORVU.MOREX.r3.7HG0637810": {
+  "model": "alphafold2_ptm_model_1_seed_000",
+  "plddt_mean": 56.93,
+  "ptm": 0.25,
+  "max_pae": 31.23,
+  "n_res": 117
+ },
+ "HORVU.MOREX.r3.2HG0197000": {
+  "model": "alphafold2_ptm_model_1_seed_000",
+  "plddt_mean": 50.44,
+  "ptm": 0.17,
+  "max_pae": 31.23,
+  "n_res": 113
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "HORVU.MOREX.r3.4HG0386900": [],
+ "HORVU.MOREX.r3.5HG0524540": [],
+ "HORVU.MOREX.r3.3HG0318380": [],
+ "HORVU.MOREX.r3.1HG0046190": [
+  {
+   "start": 1,
+   "end": 20,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  }
+ ],
+ "HORVU.MOREX.r3.6HG0596770": [
+  {
+   "start": 1,
+   "end": 22,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  }
+ ],
+ "HORVU.MOREX.r3.2HG0099870": [],
+ "HORVU.MOREX.r3.5HG0507410": [
+  {
+   "start": 23,
+   "end": 42,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  },
+  {
+   "start": 49,
+   "end": 60,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  },
+  {
+   "start": 1,
+   "end": 60,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  }
+ ],
+ "HORVU.MOREX.r3.1HG0080020": [
+  {
+   "start": 41,
+   "end": 60,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  },
+  {
+   "start": 13,
+   "end": 23,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  },
+  {
+   "start": 1,
+   "end": 60,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  }
+ ],
+ "HORVU.MOREX.r3.7HG0637810": [
+  {
+   "start": 25,
+   "end": 60,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  },
+  {
+   "start": 26,
+   "end": 49,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  }
+ ],
+ "HORVU.MOREX.r3.2HG0197000": [
+  {
+   "start": 7,
+   "end": 23,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  },
+  {
+   "start": 24,
+   "end": 37,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  },
+  {
+   "start": 1,
+   "end": 60,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  },
+  {
+   "start": 38,
+   "end": 60,
+   "desc": "consensus disorder prediction",
+   "score": "-"
+  }
+ ]
+}

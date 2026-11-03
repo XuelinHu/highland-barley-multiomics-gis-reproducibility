@@ -1,0 +1,11 @@
+gene_id	seq_len	source	mean_plddt	n_residues	frac_plddt_lt50	longest_low_plddt_run	afdb_ac	afdb_organism	seq_identity	coverage_of_target	n_aligned_ca	ca_rmsd_A	n_core_ca	ca_rmsd_core_A	best_60aa_window_rmsd_A	best_60aa_window_start	afdb_global_plddt
+HORVU.MOREX.r3.4HG0386900	87	ColabFold(local)	84.67	87	0.023	2											
+HORVU.MOREX.r3.5HG0524540	330	ColabFold(local)	67.12	330	0.418	52	Q75HE5	Oryza sativa subsp. japonica	0.846	0.906	299	23.02	153	0.49	0.26	24	70.06
+HORVU.MOREX.r3.3HG0318380	224	ColabFold(local)	87.5	224	0.076	8	Q7XV05	Oryza sativa subsp. japonica	0.638	0.839	188	2.78	171	1.74	0.22	90	80.31
+HORVU.MOREX.r3.1HG0046190	263	ColabFold(local)	90.31	263	0.072	10	Q9FWV6	Oryza sativa subsp. japonica	0.893	0.996	262	4.09	232	0.3	0.12	221	91.06
+HORVU.MOREX.r3.6HG0596770	286	ColabFold(local)	88.76	286	0.08	15	Q6K215	Oryza sativa subsp. japonica	0.944	1.0	286	6.33	240	0.76	0.16	90	88.81
+HORVU.MOREX.r3.2HG0099870	716	ColabFold(local)	83.73	716	0.102	32	Q08277	Zea mays	0.906	0.992	710	18.6	585	12.77	0.19	439	84.88
+HORVU.MOREX.r3.5HG0507410	139	AFDB:P12951 (exact match)	54.64	139	0.41	19	local		1.0	1.0	139	21.86	10	4.11	None	None	
+HORVU.MOREX.r3.1HG0080020	213	AFDB:P14928 (exact match)	58.36	213	0.3	27	local		1.0	1.0	213	17.42	45	4.68	2.06	58	
+HORVU.MOREX.r3.7HG0637810	117	ColabFold(local)	56.93	117	0.239	8	Q39138	Arabidopsis thaliana	0.481	0.906	106	10.97	18	5.48	None	None	65.75
+HORVU.MOREX.r3.2HG0197000	113	ColabFold(local)	50.44	113	0.398	11	Q96273	Arabidopsis thaliana	0.527	0.823	93	22.78	0	None	None	None	60.09

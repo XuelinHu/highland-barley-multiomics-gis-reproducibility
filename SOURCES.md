@@ -1,0 +1,15 @@
+# Source provenance and redistribution
+
+GEO: [GSE103278](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103278), [GSE128048](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128048), [GSE41513](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE41513), [GSE47882](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE47882), exploratory [GSE225255](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225255). Processed tables retain accessions; normalized matrices/R objects are supplied for the drought analyses. Reanalysis of raw Agilent arrays additionally requires the GEO RAW.tar files and phenotype tables.
+
+MorexV3: Ensembl Plants release 60, [FTP reference](https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-60/fasta/hordeum_vulgare/pep/), [GFF3](https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-60/gff3/hordeum_vulgare/). Reference resources are provided with attribution; they are not relicensed as project code.
+
+GBIF: the original occurrence/search API retrieval on 2026-09-11 used taxonKey=2706056, hasCoordinate=true, hasGeospatialIssue=false, with global and regional pagination. It has no DOI-assigned download. The released fixed snapshot, GBIF IDs, dataset keys and record-level licences identify the actual records. Cite each contributing dataset listed in results/GBIF_contributing_datasets.tsv. Records include CC0, CC BY and CC BY-NC terms; noncommercial restrictions continue to apply. This release does not invent a historical GBIF download DOI. Re-querying the API today may produce a different set.
+
+WorldClim 2.1 (1970–2000): https://www.worldclim.org/data/worldclim21.html ; exact archives https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_30s_bio.zip and wc2.1_30s_elev.zip. [Terms](https://www.worldclim.org/about.html) prohibit redistribution without permission. Neither original rasters nor extracted per-record WorldClim values are included. Published maps are allowed. Methodology DOI: 10.1002/joc.5086 (not a download DOI).
+
+CHELSA 2.1 (1981–2010): https://os.zhdk.cloud.switch.ch/chelsav2/GLOBAL/climatologies/1981-2010/bio/CHELSA_bio{N}_1981-2010_V.2.1.tif (N=1..19). Retain provider attribution and terms. Source inventory and original download report are in sources/. Product comparisons conflate different climatological periods.
+
+SRTM/CGIAR 90 m: https://srtm.csi.cgiar.org/ ; source-method DOI 10.1029/2005RG000183. SoilGrids 2.0: https://soilgrids.org/ ; methodology DOI 10.5194/soil-7-217-2021. Exact tile/WCS requests, resolution, depth and scaling are in the original download scripts/report and extraction code. Do not confuse methodology DOIs with data-download identifiers.
+
+AlphaFold DB models for exact sequences P12951/P14928 are attributed to AlphaFold DB (CC BY 4.0). Eight other selected models are archived ColabFold predictions. Per-model checksums and sequence hashes are in results/protein_panel_manifest.tsv. Homolog identifiers in historical tables are not the candidate's own UniProt IDs.

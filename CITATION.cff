@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and the original data providers listed in SOURCES.md."
+title: "Drought-responsive barley protein candidates and high-elevation occurrence environments: reproducibility archive"
+type: dataset
+version: 1.0.0
+date-released: 2026-11-03
+authors:
+  - family-names: Wang
+    given-names: Jingchao
+  - family-names: Hu
+    given-names: Xuelin
+    orcid: https://orcid.org/0000-0002-4475-3034
+  - family-names: Fu
+    given-names: Xiaoqin
+  - family-names: Fu
+    given-names: Youjing
+repository-code: https://github.com/XuelinHu/highland-barley-multiomics-gis-reproducibility
