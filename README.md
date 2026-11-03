@@ -1,7 +1,7 @@
 ---
 license: other
 license_name: mixed-source-terms
-license_link: SOURCES.md
+license_link: https://github.com/XuelinHu/highland-barley-multiomics-gis-reproducibility/blob/main/SOURCES.md
 language:
 - en
 - zh
