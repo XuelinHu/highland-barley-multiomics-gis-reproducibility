@@ -1,5 +1,5 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "release_date": "2026-11-03",
   "source_base_commit": "51938279a6845010bd927f93fe295ef1f8ccad11",
   "source_changes": "Revision scripts are newer than the base commit; SHA256SUMS.json identifies their exact released bytes.",

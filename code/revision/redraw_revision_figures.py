@@ -26,7 +26,7 @@ def main():
     a = p.parse_args()
     a.output.mkdir(parents=True, exist_ok=True)
     plt.rcParams.update({'font.family':'serif', 'font.size':11, 'axes.labelsize':11,
-        'axes.titlesize':12, 'xtick.labelsize':9, 'ytick.labelsize':9,
+        'axes.titlesize':12, 'xtick.labelsize':10, 'ytick.labelsize':10,
         'legend.fontsize':9, 'figure.facecolor':'white', 'axes.facecolor':'white',
         'pdf.fonttype':42, 'axes.spines.top':False, 'axes.spines.right':False})
     frame = pd.read_csv(a.evidence / 'gis/processed/barley_env_matrix.tsv.gz', sep='\t', low_memory=False)
@@ -58,7 +58,7 @@ def main():
     for dataset in ['GSE103278','GSE128048']:
         v = pd.read_csv(a.results / (dataset+'_volcano_values.tsv'),sep='\t')
         significant = v.omnibus_FDR.lt(.05)
-        fig,ax=plt.subplots(figsize=(6,4.8),constrained_layout=True)
+        fig,ax=plt.subplots(figsize=(3.35,3.2),constrained_layout=True)
         ax.scatter(v.mean_logFC, -np.log10(v.omnibus_FDR.clip(lower=1e-300)),s=3,
                    c=np.where(significant,np.where(v.mean_logFC.ge(0),orange,blue),gray),alpha=.45,rasterized=True)
         ax.axhline(-np.log10(.05),color='black',lw=.7,ls='--')
@@ -75,7 +75,7 @@ def main():
     ax.axhline(0,lw=.6,c='black');ax.axvline(0,lw=.6,c='black')
     ax.set(xlabel='GSE103278 mean log₂ fold change',ylabel='GSE128048 mean log₂ fold change')
     ax.legend(loc='upper left');save(fig,a.output,'consensus_effects')
-    fig,axes=plt.subplots(1,2,figsize=(10,4),constrained_layout=True)
+    fig,axes=plt.subplots(1,2,figsize=(7.2,3.5),constrained_layout=True)
     for ax,df,title in [(axes[0],frame,'(A) Global occurrences'),(axes[1],plateau,'(B) Plateau window')]:
         sc=ax.scatter(df.decimalLongitude,df.decimalLatitude,c=df.elev,s=3 if ax is axes[0] else 10,cmap='viridis',vmin=0,vmax=6000,rasterized=True)
         ax.set(xlabel='Longitude (°E)',ylabel='Latitude (°N)',title=title)
@@ -91,7 +91,7 @@ def main():
     axes[1].set(ylabel='Proxy share (%)',title='(B) Proxy fraction in each elevation band')
     axes[2].hist(proxy.elev,bins=edges,color=orange,edgecolor='white');axes[2].set(ylabel='Proxy count',xlabel='Elevation (m)',title='(C) High-elevation proxy')
     save(fig,a.output,'fig2_elevation_bands')
-    fig,axes=plt.subplots(1,3,figsize=(12,4),constrained_layout=True)
+    fig,axes=plt.subplots(1,3,figsize=(7.2,3.8),constrained_layout=True)
     ci=pd.read_csv(a.results/'gradient_confidence_intervals.tsv',sep='\t')
     ci=ci[ci.subset.eq('plateau_2000_5000m')].set_index('variable')
     for i,(ax,col,label) in enumerate(zip(axes,['wc_bio1','wc_bio12','wc_bio5'],['Mean annual temperature (°C)','Annual precipitation (mm)','Warmest-month maximum (°C)'])):
@@ -114,21 +114,25 @@ def main():
     for dataset in ['GSE103278','GSE128048']:
         tab=pd.read_csv(base/'wgcna'/('module_trait_'+dataset+'.tsv'),sep='\t')
         corr=tab.pivot(index='module',columns='trait',values='cor');q=tab.pivot(index='module',columns='trait',values='fdr')
-        fig,ax=plt.subplots(figsize=(5.4,7),constrained_layout=True)
+        fig,ax=plt.subplots(figsize=(3.5,6),constrained_layout=True)
         im=ax.imshow(corr,vmin=-1,vmax=1,cmap='RdBu_r',aspect='auto')
         ax.set_xticks(range(len(corr.columns)),corr.columns);ax.set_yticks(range(len(corr)),corr.index)
+        ax.tick_params(axis='x', labelrotation=35, labelsize=9)
+        for tick in ax.get_xticklabels():tick.set_ha('right')
         for iy in range(len(corr)):
             for ix in range(len(corr.columns)):
-                value=corr.iloc[iy,ix];ax.text(ix,iy,f'{value:.2f}'+('*' if q.iloc[iy,ix]<.05 else ''),ha='center',va='center',fontsize=9,color='white' if abs(value)>.65 else 'black')
+                value=corr.iloc[iy,ix];ax.text(ix,iy,f'{value:.2f}'+('*' if q.iloc[iy,ix]<.05 else ''),ha='center',va='center',fontsize=10,color='white' if abs(value)>.65 else 'black')
         ax.set(title=dataset+'; * FDR < 0.05',ylabel='Module');fig.colorbar(im,ax=ax,label='Pearson correlation',shrink=.6)
         save(fig,a.output,'module_trait_heatmap_'+dataset)
     panel=pd.read_csv(a.results/'protein_panel_manifest.tsv',sep='\t')
-    fig,axes=plt.subplots(2,5,figsize=(13,5.8),constrained_layout=True)
+    fig,axes=plt.subplots(4,3,figsize=(7,9),constrained_layout=True)
     for ax,(_,row) in zip(axes.flat,panel.iterrows()):
         t=pd.read_csv(base/'structures'/('plddt_'+row.gene_id+'.tsv'),sep='\t')
         ax.plot(t.residue_index,t.plddt,c=blue,lw=.9);ax.axhline(70,color=gray,lw=.8,ls='--')
         ax.set(ylim=(0,100),xlabel='Residue',ylabel='pLDDT',title=row.label.split(' (')[0]+'\nrank '+str(row.consensus_rank))
-        ax.tick_params(labelsize=8)
+        ax.title.set_fontsize(10)
+        ax.tick_params(labelsize=9)
+    for ax in axes.flat[len(panel):]:ax.set_visible(False)
     save(fig,a.output,'structure_plddt_summary')
 
 

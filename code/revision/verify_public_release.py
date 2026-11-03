@@ -6,6 +6,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from sklearn.metrics import average_precision_score, roc_auc_score
+from sklearn.metrics.pairwise import haversine_distances
 
 
 def main():
@@ -45,6 +46,15 @@ def main():
         assert hashlib.sha256(model.read_bytes()).hexdigest()==row.model_sha256
     audit=pd.read_csv(result/'protein_sequence_audit.tsv',sep='\t')
     assert len(audit)==107
+    retained=pd.read_csv(result/'spatial_sensitivity_record_manifest.tsv',sep='\t')
+    points=pd.read_csv(result/'occurrence_record_manifest.tsv',sep='\t').set_index('gbif_key')
+    for distance,group in retained[retained.analysis.eq('spatial_thinning')].groupby('thinning_km'):
+        if distance<=0:continue
+        ids=group.gbif_key
+        coordinates=np.deg2rad(points.loc[ids,['decimalLatitude','decimalLongitude']].to_numpy())
+        distances=haversine_distances(coordinates)*6371.0088
+        np.fill_diagonal(distances,np.inf)
+        assert distances.min()>=distance-1e-6,(distance,distances.min())
     print(json.dumps({'checksums_verified':len(checks),'sensitivity_metric_folds_recomputed':verified,
         'historical_fold_counts_verified':len(historic),'cold_count_correction_verified':True,'model_hashes_verified':10}))
 

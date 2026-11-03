@@ -20,7 +20,7 @@ GitHub: https://github.com/XuelinHu/highland-barley-multiomics-gis-reproducibili
 
 Hugging Face: https://huggingface.co/datasets/xuelinhu/highland-barley-multiomics-gis-reproducibility
 
-Version: v1.0.0. Exact files: SHA256SUMS.json. Original source base commit and subsequent revision scope: release_metadata.json. No archive DOI is claimed unless one is registered.
+Version: v1.0.1. Exact files: SHA256SUMS.json. Original source base commit and subsequent revision scope: release_metadata.json. No archive DOI is claimed unless one is registered.
 
 ## Contents
 
